@@ -1,0 +1,89 @@
+[
+  {
+    "timestamp": 1749415539789,
+    "hash": "#1 genesis block",
+    "lastHash": "############",
+    "data": [],
+    "nonce": 0,
+    "difficulty": 3,
+    "message": "In ledgers wide, no king, no chain. \n    Each block a voice, none speak in vain. \n    From roots of code, the truth shall grow. \n    Where none command, yet all shall know."
+  },
+  {
+    "timestamp": 1749416951639,
+    "hash": "0086697f39504fea1a1ea0bf7b912ef3782cd603544fd3d02de140157be97f93",
+    "lastHash": "#1 genesis block",
+    "data": "Testblock 2",
+    "nonce": 251,
+    "difficulty": 2,
+    "message": "Hello"
+  },
+  {
+    "timestamp": 1749417353070,
+    "hash": "0977a6fa86eea1b791fc4d6094ca6a8c1fba26a7ad4bf0706c4c58e3d3040fd3",
+    "lastHash": "0086697f39504fea1a1ea0bf7b912ef3782cd603544fd3d02de140157be97f93",
+    "data": { "data": "Testblock 2", "message": "Hello" },
+    "nonce": 25,
+    "difficulty": 1
+  },
+  {
+    "timestamp": 1749417534539,
+    "hash": "b725a54c1f483b00bd72ac8c46413a849eccf8e49b60d51900251fa73ccd33cf",
+    "lastHash": "0977a6fa86eea1b791fc4d6094ca6a8c1fba26a7ad4bf0706c4c58e3d3040fd3",
+    "data": "Testblock 2",
+    "nonce": 1,
+    "difficulty": 0,
+    "message": "Hello"
+  },
+  {
+    "timestamp": 1749418186715,
+    "hash": "0e91905cbc2e1ad4cd6413105fec80fd1e3bc17202757957568fb7515e58611d",
+    "lastHash": "b725a54c1f483b00bd72ac8c46413a849eccf8e49b60d51900251fa73ccd33cf",
+    "data": "Testblock 3",
+    "nonce": 4,
+    "difficulty": 1,
+    "message": "Cool message"
+  },
+  {
+    "timestamp": 1749418908642,
+    "hash": "ee6dab73172901b746be4c56fd430db4c2570545f36141f062c97860261b73f1",
+    "lastHash": "0e91905cbc2e1ad4cd6413105fec80fd1e3bc17202757957568fb7515e58611d",
+    "nonce": 1,
+    "difficulty": 0
+  },
+  {
+    "timestamp": 1749419435692,
+    "hash": "04a7948cdf248220eb1a7ae7f8d956ca36b4ddafdd7262967f2afe9b4c00932a",
+    "lastHash": "ee6dab73172901b746be4c56fd430db4c2570545f36141f062c97860261b73f1",
+    "data": "Testblock 4",
+    "nonce": 2,
+    "difficulty": 1,
+    "message": "Cool message again"
+  },
+  {
+    "timestamp": 1749419480031,
+    "hash": "50912c2ccd55ac1a3590e272a06a2473694ad8c5271f3b4660cdf3160a4713cc",
+    "lastHash": "04a7948cdf248220eb1a7ae7f8d956ca36b4ddafdd7262967f2afe9b4c00932a",
+    "data": "Testblock 4",
+    "nonce": 1,
+    "difficulty": 0,
+    "message": "Cool message again"
+  },
+  {
+    "timestamp": 1749419580969,
+    "hash": "054b1118615a862ea993c03fb20f9f2e28e725d9dadafa9a8a1ccf0bd3e168da",
+    "lastHash": "50912c2ccd55ac1a3590e272a06a2473694ad8c5271f3b4660cdf3160a4713cc",
+    "data": "Testblock 4",
+    "nonce": 13,
+    "difficulty": 1,
+    "message": "Cool message again"
+  },
+  {
+    "timestamp": 1749419623792,
+    "hash": "7e499170308501e038235ad7266f086905dba0535a3403187d19a784839dd652",
+    "lastHash": "054b1118615a862ea993c03fb20f9f2e28e725d9dadafa9a8a1ccf0bd3e168da",
+    "data": "Am I finished yet?",
+    "nonce": 1,
+    "difficulty": 0,
+    "message": "I think I can send thic to Michael now"
+  }
+]
