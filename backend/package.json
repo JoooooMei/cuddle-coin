@@ -6,19 +6,28 @@
   "scripts": {
     "test": "vitest",
     "start": "node src/server.mjs",
-    "dev": "nodemon src/server.mjs"
+    "dev-node": "cross-env GENERATE_NODE_PORT='true' nodemon src/server.mjs",
+    "dev": "npm run start-redis && nodemon src/server.mjs",
+    "start-redis": "redis-server --daemonize yes"
   },
   "keywords": [],
   "author": "Johan Meisel",
   "license": "ISC",
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "nodemon": "^3.1.10",
     "supertest": "^7.1.0",
     "vitest": "^3.1.3"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^4.18.2",
-    "mongoose": "^8.14.1"
+    "express-rate-limit": "^7.5.0",
+    "express-xss-sanitizer": "^2.0.0",
+    "helmet": "^8.1.0",
+    "hpp": "^0.2.3",
+    "mongoose": "^8.14.1",
+    "pubnub": "^9.5.2"
   }
 }
