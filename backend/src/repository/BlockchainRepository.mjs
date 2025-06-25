@@ -1,13 +1,13 @@
-import AppError from '../models/appError.mjs';
-import Storage from '../models/Storage.mjs';
-import Blockchain from '../models/Blockchain.mjs';
-import Block from '../models/Block.mjs';
+import AppError from '../models/blockchain/appError.mjs';
+import Storage from '../models/blockchain/Storage.mjs';
+import Blockchain from '../models/blockchain/Blockchain.mjs';
+import Block from '../models/blockchain/Block.mjs';
 
 export default class BlockchainRepository {
   #storage = undefined;
 
   constructor() {
-    this.#storage = new Storage('../data', 'blockchain.json');
+    this.#storage = new Storage('../../data', 'blockchain.json');
     this.#storage.createFile(JSON.stringify([Block.genesis()])).then(() => {
       return;
     });

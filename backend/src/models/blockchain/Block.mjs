@@ -1,6 +1,6 @@
 import { GENESIS_BLOCK } from './genesis.mjs';
-import { MINE_RATE } from '../utilities/config.mjs';
-import { createHash } from '../utilities/hash.mjs';
+import { MINE_RATE } from '../../utilities/config.mjs';
+import { createHash } from '../../utilities/hash.mjs';
 
 export default class Block {
   constructor({ timestamp, hash, lastHash, data, nonce, difficulty, message }) {

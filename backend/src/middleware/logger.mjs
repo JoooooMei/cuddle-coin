@@ -1,4 +1,4 @@
-import Storage from '../models/Storage.mjs';
+import Storage from '../models/blockchain/Storage.mjs';
 
 const logs = new Storage('../errorLogs', 'errorlogs.txt');
 

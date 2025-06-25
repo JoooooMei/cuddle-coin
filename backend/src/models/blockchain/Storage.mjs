@@ -21,22 +21,16 @@ export default class Storage {
   }
 
   async createFile(data) {
-    if (!(await this.checkForFile())) {
-      await this.writeToFile(data);
-    }
-  }
-
-  async readFromFile() {
-    return await fs.readFile(this.#filePath, 'utf-8');
-  }
-
-  async checkForFile() {
     try {
       await fs.access(this.#filePath);
       return true;
     } catch {
       return false;
     }
+  }
+
+  async readFromFile() {
+    return await fs.readFile(this.#filePath, 'utf-8');
   }
 
   async writeToFile(data) {

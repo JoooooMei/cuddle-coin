@@ -1,8 +1,8 @@
-import { describe, expect } from 'vitest';
+import { describe, expect, it } from 'vitest';
 import Block from './Block.mjs';
 import { GENESIS_BLOCK } from './genesis.mjs';
-import { createHash } from '../utilities/hash.mjs';
-import { MINE_RATE } from '../utilities/config.mjs';
+import { createHash } from '../../utilities/hash.mjs';
+import { MINE_RATE } from '../../utilities/config.mjs';
 
 describe('Block', () => {
   const timestamp = 2000;
@@ -115,7 +115,8 @@ describe('Block', () => {
           previousBlock.hash,
           data,
           minedBlock.nonce,
-          minedBlock.difficulty
+          minedBlock.difficulty,
+          minedBlock.message
         )
       );
     });
