@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { createHash } from './hash.mjs';
 
 describe('createHash function', () => {
