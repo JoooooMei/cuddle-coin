@@ -1,6 +1,7 @@
 import { beforeEach, describe, expect, it } from 'vitest';
 import Wallet from './Wallet.mjs';
 import Transaction from './Transaction.mjs';
+import { verifySignature } from '../../utilities/keyManager.mjs';
 
 describe('Transaction', () => {
   let transaction, sender, recipient, amount;
@@ -11,9 +12,9 @@ describe('Transaction', () => {
     amount = 20;
 
     transaction = new Transaction({
-      sender: sender,
-      recipient: recipient,
-      amount: amount,
+      sender,
+      recipient,
+      amount,
     });
   });
 
@@ -31,7 +32,7 @@ describe('Transaction', () => {
     });
 
     it('should display the amount to the recipient', () => {
-      // expect(transaction.outputMap[recipient].toEqual(sender.amount));
+      expect(transaction.outputMap[recipient]).toEqual(amount);
     });
 
     it('Should display the balance for the senders wallet', () => {
@@ -44,6 +45,40 @@ describe('Transaction', () => {
   describe('input', () => {
     it('should have a "input" property ', () => {
       expect(transaction).toHaveProperty('input');
+    });
+
+    it('should have a timestamp property', () => {
+      expect(transaction.input).toHaveProperty('timestamp');
+    });
+
+    it('should have a amount property', () => {
+      expect(transaction.input).toHaveProperty('amount');
+    });
+
+    it('should have a address property', () => {
+      expect(transaction.input).toHaveProperty('address');
+    });
+
+    it('should have a signature property', () => {
+      expect(transaction.input).toHaveProperty('signature');
+    });
+
+    it('should set the amount to the senders balance', () => {
+      expect(transaction.input.amount).toEqual(sender.balance);
+    });
+
+    it('should set the address to the senders public key', () => {
+      expect(transaction.input.address).toEqual(sender.publicKey);
+    });
+
+    it('should sign the input', () => {
+      expect(
+        verifySignature({
+          publicKey: sender.publicKey,
+          data: transaction.outputMap,
+          signature: transaction.input.signature,
+        })
+      ).toBeTruthy();
     });
   });
 });
