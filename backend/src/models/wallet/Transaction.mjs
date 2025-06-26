@@ -4,7 +4,7 @@ export default class Transaction {
   constructor({ sender, recipient, amount }) {
     this.id = uuidv4().replaceAll('-', '');
     this.outputMap = this.createOutputMap({ sender, recipient, amount });
-    this.input = {};
+    this.input = this.createInput({ sender, outputMap: this.outputMap });
   }
 
   createOutputMap({ sender, recipient, amount }) {
@@ -14,5 +14,14 @@ export default class Transaction {
     map[sender.publicKey] = sender.balance - amount;
 
     return map;
+  }
+
+  createInput({ sender, outputMap }) {
+    return {
+      timestamp: Date.now(),
+      amount: sender.balance,
+      address: sender.publicKey,
+      signature: sender.sign(outputMap),
+    };
   }
 }
