@@ -7,7 +7,7 @@
     "test": "vitest",
     "start": "node src/server.mjs",
     "dev-node": "cross-env GENERATE_NODE_PORT='true' nodemon src/server.mjs",
-    "dev": "npm run start-redis && nodemon src/server.mjs",
+    "dev": "nodemon src/server.mjs",
     "start-redis": "redis-server --daemonize yes"
   },
   "keywords": [],
@@ -22,12 +22,14 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
+    "elliptic": "^6.6.1",
     "express": "^4.18.2",
     "express-rate-limit": "^7.5.0",
     "express-xss-sanitizer": "^2.0.0",
     "helmet": "^8.1.0",
     "hpp": "^0.2.3",
     "mongoose": "^8.14.1",
-    "pubnub": "^9.5.2"
+    "pubnub": "^9.5.2",
+    "uuid": "^11.1.0"
   }
 }
