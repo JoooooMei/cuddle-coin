@@ -18,10 +18,6 @@ describe('Transaction', () => {
     });
   });
 
-  // en transaktion ska ha egenskaperna id, outoutMap, input
-  // outputmap kommer att testa för egenskaper som det objektet behöver
-  // outputMap och input  kommer ha en egen describe svit.
-
   it('should have a "id" property ', () => {
     expect(transaction).toHaveProperty('id');
   });
@@ -79,6 +75,32 @@ describe('Transaction', () => {
           signature: transaction.input.signature,
         })
       ).toBeTruthy();
+    });
+  });
+
+  describe('Validate a transaction', () => {
+    describe('when it is valid', () => {
+      it('should return true', () => {
+        expect(Transaction.validate(transaction)).toBeTruthy();
+      });
+    });
+
+    describe('when it is NOT valid', () => {
+      describe('and the transaction outputMap is NOT valid', () => {
+        it('should return false', () => {
+          transaction.outputMap[sender.publicKey] = 1000;
+          expect(Transaction.validate(transaction)).toBeFalsy();
+        });
+      });
+
+      describe('and the transaction input signature is NOT valid', () => {
+        it('should return false', () => {
+          transaction.input.signature = new Wallet().sign(
+            'You have been hacked'
+          );
+          expect(Transaction.validate(transaction)).toBeFalsy();
+        });
+      });
     });
   });
 });
