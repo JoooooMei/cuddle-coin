@@ -1,0 +1,104 @@
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-27
+Time: 15:02:47
+Success: undefined
+Message: Converting circular structure to JSON
+    --> starting at object with constructor 'Transaction'
+    --- property 'id' closes the circle
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-27
+Time: 15:03:54
+Success: undefined
+Message: Converting circular structure to JSON
+    --> starting at object with constructor 'Transaction'
+    --- property 'id' closes the circle
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-27
+Time: 15:06:39
+Success: undefined
+Message: Converting circular structure to JSON
+    --> starting at object with constructor 'Transaction'
+    --- property 'id' closes the circle
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-27
+Time: 15:06:40
+Success: undefined
+Message: Converting circular structure to JSON
+    --> starting at object with constructor 'Transaction'
+    --- property 'id' closes the circle
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-27
+Time: 15:13:28
+Success: undefined
+Message: address is not defined
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-27
+Time: 15:14:00
+Success: undefined
+Message: address is not defined
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-27
+Time: 15:14:25
+Success: undefined
+Message: address is not defined
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-27
+Time: 15:18:50
+Success: undefined
+Message: address is not defined
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-27
+Time: 15:25:20
+Success: undefined
+Message: address is not defined
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-27
+Time: 15:25:28
+Success: undefined
+Message: address is not defined
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-27
+Time: 15:26:20
+Success: undefined
+Message: address is not defined
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-27
+Time: 15:28:01
+Success: undefined
+Message: address is not defined
+

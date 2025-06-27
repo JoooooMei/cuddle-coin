@@ -26,6 +26,21 @@ export default class Transaction {
     return true;
   }
 
+  update({ sender, recipient, amount }) {
+    if (amount > this.outputMap[sender.publicKey])
+      throw new Error('Insufficient founds');
+
+    if (!this.outputMap[recipient]) {
+      this.outputMap[recipient] = amount;
+    } else {
+      this.outputMap[recipient] += amount;
+    }
+
+    this.outputMap[sender.publicKey] -= amount;
+
+    this.input = this.createInput({ sender, outputMap: this.outputMap });
+  }
+
   createOutputMap({ sender, recipient, amount }) {
     const map = {};
 
