@@ -1,14 +1,11 @@
 import { Router } from 'express';
 import {
-  getAllBlocks,
-  getBlockByHash,
-  createBlock,
+  addBlock,
+  listAllBlocks,
 } from '../controllers/blockchain-controller.mjs';
 
 const blockchainRouter = Router();
 
-blockchainRouter.route('/').get(getAllBlocks).post(createBlock);
-
-blockchainRouter.route('/:hash').get(getBlockByHash);
+blockchainRouter.route('/').get(listAllBlocks).post(addBlock);
 
 export default blockchainRouter;

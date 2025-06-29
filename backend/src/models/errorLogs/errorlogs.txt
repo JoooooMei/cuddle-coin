@@ -150,3 +150,43 @@ Time: 14:18:24
 Success: undefined
 Message: address is not defined
 
+
+ERROR LOG
+URL: /api/v1/blocks
+Date: 2025-06-29
+Time: 14:51:53
+Success: undefined
+Message: blockChain.add is not a function
+
+
+ERROR LOG
+URL: /api/v1/blocks
+Date: 2025-06-29
+Time: 14:51:56
+Success: undefined
+Message: blockChain.add is not a function
+
+
+ERROR LOG
+URL: /api/v1/blocks
+Date: 2025-06-29
+Time: 14:52:28
+Success: undefined
+Message: blockChain.add is not a function
+
+
+ERROR LOG
+URL: /api/v1/blocks
+Date: 2025-06-29
+Time: 14:53:18
+Success: undefined
+Message: blockChain.add is not a function
+
+
+ERROR LOG
+URL: /api/v1/blocks
+Date: 2025-06-29
+Time: 14:57:50
+Success: undefined
+Message: server is not defined
+
