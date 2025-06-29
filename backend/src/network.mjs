@@ -13,8 +13,10 @@ const credentials = {
 };
 
 export default class Network {
-  constructor({ blockchain }) {
+  constructor({ blockchain, transactionPool }) {
     this.blockchain = blockchain;
+    this.transactionPool = transactionPool;
+
     this.pubnub = new PubNub(credentials);
     this.pubnub.subscribe({ channels: Object.values(CHANNELS) });
     this.pubnub.addListener(this.handleMessage());
@@ -27,7 +29,8 @@ export default class Network {
     });
   }
 
-  handleMessage() {
+  handleMessage(channel, message) {
+    console.log(`got message: ${message} on channel: ${channel}`);
     return {
       message: (msgObject) => {
         const { channel, message } = msgObject;

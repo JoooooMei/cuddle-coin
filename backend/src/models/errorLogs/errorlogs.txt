@@ -102,3 +102,43 @@ Time: 15:28:01
 Success: undefined
 Message: address is not defined
 
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-29
+Time: 11:23:46
+Success: undefined
+Message: address is not defined
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-29
+Time: 11:46:03
+Success: undefined
+Message: address is not defined
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-29
+Time: 11:51:11
+Success: undefined
+Message: address is not defined
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-29
+Time: 11:51:35
+Success: undefined
+Message: address is not defined
+
+
+ERROR LOG
+URL: /api/v1/wallet/transactions
+Date: 2025-06-29
+Time: 12:14:24
+Success: undefined
+Message: address is not defined
+

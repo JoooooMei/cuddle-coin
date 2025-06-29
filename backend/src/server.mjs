@@ -23,7 +23,7 @@ setTimeout(() => {
 // const PORT = process.env.PORT || 3010;
 
 app.use('/api/v1/blocks', blockchainRouter);
-app.use('/api/wallet', transactionRoutes);
+app.use('/api/v1/wallet', transactionRoutes);
 
 if (process.env.GENERATE_NODE_PORT === 'true') {
   NODE_PORT = DEFAULT_PORT + Math.ceil(Math.random() * 1000);
