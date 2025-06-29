@@ -103,4 +103,78 @@ describe('Transaction', () => {
       });
     });
   });
+
+  describe('Update transaction', () => {
+    let orgSignature, orgSenderOutMap, nextRecipient, nextAmount;
+
+    describe('and the amount is invalid (not enough founds)', () => {
+      it('shoud throw an error', () => {
+        expect(() => {
+          transaction.update({ sender, recipient, amount: 2000 });
+        }).toThrow('Insufficient founds');
+      });
+    });
+
+    describe('and the amount is valid', () => {
+      beforeEach(() => {
+        orgSignature = transaction.input.signature;
+        orgSenderOutMap = transaction.outputMap[sender.publicKey];
+        nextAmount = 20;
+        nextRecipient = 'Viktor';
+
+        transaction.update({
+          sender,
+          recipient: nextRecipient,
+          amount: nextAmount,
+        });
+      });
+
+      it('should display the amount to the next recipient', () => {
+        expect(transaction.outputMap[nextRecipient]).toEqual(nextAmount);
+      });
+
+      it('should wthdraw the amount from original sender output balance', () => {
+        expect(transaction.outputMap[sender.publicKey]).toEqual(
+          orgSenderOutMap - nextAmount
+        );
+      });
+
+      it('should match the total balance with input amount', () => {
+        expect(
+          Object.values(transaction.outputMap).reduce(
+            (total, amount) => total + amount
+          )
+        ).toEqual(transaction.input.amount);
+      });
+
+      it('should create a new signaturefor the transaction', () => {
+        expect(transaction.input.signature).not.toEqual(orgSignature);
+      });
+
+      describe('and update is for the same recipient', () => {
+        let newAmount;
+
+        beforeEach(() => {
+          newAmount = 60;
+          transaction.update({
+            sender,
+            recipient: nextRecipient,
+            amount: newAmount,
+          });
+        });
+
+        it('should update the recipients amount', () => {
+          expect(transaction.outputMap[nextRecipient]).toEqual(
+            nextAmount + newAmount
+          );
+        });
+
+        it('should subtract corract amount from original sender/wallet', () => {
+          expect(transaction.outputMap[sender.publicKey]).toEqual(
+            orgSenderOutMap - nextAmount - newAmount
+          );
+        });
+      });
+    });
+  });
 });

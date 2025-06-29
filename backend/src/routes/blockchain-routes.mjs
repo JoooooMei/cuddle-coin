@@ -6,6 +6,7 @@ import {
 
 const blockchainRouter = Router();
 
-blockchainRouter.route('/').get(listAllBlocks).post(addBlock);
+blockchainRouter.route('/').get(listAllBlocks);
+blockchainRouter.route('/mine').post(addBlock);
 
 export default blockchainRouter;
