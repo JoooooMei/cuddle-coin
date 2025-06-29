@@ -142,3 +142,11 @@ Time: 12:14:24
 Success: undefined
 Message: address is not defined
 
+
+ERROR LOG
+URL: /api/v1/wallet/transactions
+Date: 2025-06-29
+Time: 14:18:24
+Success: undefined
+Message: address is not defined
+

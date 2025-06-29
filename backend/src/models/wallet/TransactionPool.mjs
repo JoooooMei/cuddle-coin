@@ -9,7 +9,7 @@ export default class TransactionPool {
     this.transactionMap[transaction.id] = transaction;
   }
 
-  transactionExists() {
+  transactionExists(address) {
     const transactions = Object.values(this.transactionMap);
 
     return transactions.find(
