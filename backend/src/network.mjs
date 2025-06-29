@@ -39,8 +39,12 @@ export default class Network {
           `Meddelande har mottagits på kanal: ${channel}, meddelandet är ${message}`
         );
 
-        if (channel === CHANNELS.BLOCKCHAIN) {
-          this.blockchain.replaceChain(msg);
+        switch (channel) {
+          case CHANNELS.BLOCKCHAIN:
+            this.blockchain.replaceChain(msg);
+            break;
+          default:
+            return;
         }
       },
     };
