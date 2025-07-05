@@ -14,6 +14,7 @@ export const wallet = new Wallet();
 export const server = new networkServer({
   blockChain,
   transactionPool,
+  wallet,
 });
 
 const DEFAULT_PORT = 3000;
