@@ -177,4 +177,17 @@ describe('Transaction', () => {
       });
     });
   });
+
+  describe('Transaction reward', () => {
+    let transactionReward, miner;
+
+    beforeEach(() => {
+      miner = new Wallet();
+      transactionReward = Transaction.transactionReward({ miner });
+    });
+
+    it('should create a reward transaction with the miners address', () => {});
+
+    it('should create ONLY one transaction with the MINEING_REWARD', () => {});
+  });
 });

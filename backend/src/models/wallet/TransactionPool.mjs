@@ -20,4 +20,10 @@ export default class TransactionPool {
       (transaction) => transaction.input.address === address
     );
   }
+
+  validateTransactions() {
+    return Object.values(this.transactionMap).filter((transaction) =>
+      Transaction.validate(transaction)
+    );
+  }
 }
