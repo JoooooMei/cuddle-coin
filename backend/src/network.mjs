@@ -38,8 +38,7 @@ export default class Network {
     });
   }
 
-  handleMessage(channel, message) {
-    console.log(`Got message ${message} on channel ${channel}`);
+  handleMessage() {
     return {
       message: (msgObject) => {
         const { channel, message } = msgObject;
@@ -50,7 +49,9 @@ export default class Network {
 
         switch (channel) {
           case CHANNELS.BLOCKCHAIN:
-            this.blockchain.replaceChain(msg);
+            this.blockchain.replaceChain(msg, () => {
+              this.transactionPool.clearBlockTransactions({ chain: msg });
+            });
             break;
           case CHANNELS.TRANSACTION:
             if (

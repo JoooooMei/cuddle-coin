@@ -190,3 +190,19 @@ Time: 14:57:50
 Success: undefined
 Message: server is not defined
 
+
+ERROR LOG
+URL: /api/wallet/transactions/mine
+Date: 2025-07-07
+Time: 13:15:22
+Success: undefined
+Message: Cannot read properties of undefined (reading 'chain')
+
+
+ERROR LOG
+URL: /api/wallet/transactions/mine
+Date: 2025-07-07
+Time: 13:18:35
+Success: undefined
+Message: Cannot read properties of undefined (reading 'chain')
+

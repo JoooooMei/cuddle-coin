@@ -49,4 +49,11 @@ describe('TransactionPool', () => {
       );
     });
   });
+
+  describe('clear the transactionPool', () => {
+    it('should clear the transactionPool', () => {
+      transactionPool.clearTransactions();
+      expect(transactionPool.transactionMap).toEqual({});
+    });
+  });
 });
