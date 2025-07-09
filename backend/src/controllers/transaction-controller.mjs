@@ -1,5 +1,6 @@
 import { transactionPool, wallet, server, blockChain } from '../server.mjs';
 import Miner from '../models/miner/Miner.mjs';
+import Wallet from '../models/wallet/Wallet.mjs';
 
 export const addTransaction = (req, res) => {
   const { amount, recipient } = req.body;
@@ -23,6 +24,20 @@ export const addTransaction = (req, res) => {
   server.broadcastTransaction(transaction);
 
   res.status(201).json({ success: true, statusCode: 201, data: transaction });
+};
+
+export const getWalletInfo = (req, res) => {
+  const address = wallet.publicKey;
+  const balance = Wallet.calculateBalance({
+    chain: blockChain.chain,
+    address: address,
+  });
+
+  res.status(200).json({
+    success: true,
+    statusCode: 200,
+    data: { address: address, balance: balance },
+  });
 };
 
 export const getAllTransactions = (req, res) => {
