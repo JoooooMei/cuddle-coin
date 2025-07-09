@@ -1,1 +1,101 @@
-[{"timestamp":1750338374133,"hash":"#1 genesis block","lastHash":"############","data":[],"nonce":0,"difficulty":3,"message":"Decentralized, yet side by side,\nNo third-party could override.\nOur keys are shared, our secrets too,\nCuddle and smiles between us two."},{"timestamp":1750338474748,"hash":"0070a1217db604f9a56c6a4d1eb3b2201215362a36cf7199fea6b5f1ac4723f2","lastHash":"#1 genesis block","data":"New juicy chain test","nonce":112,"difficulty":2,"message":"This is actually the cuddle-coin chain. Seems to be working."},{"timestamp":1750850313205,"hash":"0c171fb84a14b9fe1cb12b8abd6f6af99d5f23346333ff4180923c21f4297a9c","lastHash":"0070a1217db604f9a56c6a4d1eb3b2201215362a36cf7199fea6b5f1ac4723f2","data":"New juicy chain test","nonce":16,"difficulty":1,"message":"This is actually the cuddle-coin chain. Seems to be working."},{"timestamp":1750850789254,"hash":"7e31d2c6ba64a6db07bd992bd37288cea9ccfb433cf214d623bf8fa52eda4b80","lastHash":"0c171fb84a14b9fe1cb12b8abd6f6af99d5f23346333ff4180923c21f4297a9c","data":"New juicy chain test","nonce":1,"difficulty":0,"message":"Pubnub test"},{"timestamp":1750850880460,"hash":"0c71bc3f3f0514f9458c43bc025dca7e92124cabb36c393431701f8b8fa08487","lastHash":"7e31d2c6ba64a6db07bd992bd37288cea9ccfb433cf214d623bf8fa52eda4b80","data":"New juicy chain test","nonce":5,"difficulty":1,"message":"Pubnub test"},{"timestamp":1750852037491,"hash":"1458572a99a655e44f908a5275675b0155a38913796a8368519ea0f59b467950","lastHash":"0c71bc3f3f0514f9458c43bc025dca7e92124cabb36c393431701f8b8fa08487","nonce":1,"difficulty":0},{"timestamp":1750852129740,"hash":"04557fe5e68c43ca562032c2fef311f6504355997244dfd34f09fec3f4edeb1a","lastHash":"1458572a99a655e44f908a5275675b0155a38913796a8368519ea0f59b467950","data":"Cool test","nonce":8,"difficulty":1,"message":"Lovely juicy test weith pubnub"},{"timestamp":1751191987119,"hash":"af28be579c7dee46677f6c7e0f29067f5b9926c6ab0b670faf956bc25a7124de","lastHash":"04557fe5e68c43ca562032c2fef311f6504355997244dfd34f09fec3f4edeb1a","nonce":1,"difficulty":0},{"timestamp":1751191996847,"hash":"05a56503cf751aad3afb034f3bae389a845dea7f9201359cbed11495cdff981b","lastHash":"af28be579c7dee46677f6c7e0f29067f5b9926c6ab0b670faf956bc25a7124de","nonce":29,"difficulty":1},{"timestamp":1751192168108,"hash":"a44bb5c58e028e6c4f48f96da6c4f2fa43e35eef98e4040e7a5cf5a02355ae57","lastHash":"05a56503cf751aad3afb034f3bae389a845dea7f9201359cbed11495cdff981b","data":[{"name":"Johan"}],"nonce":1,"difficulty":0},{"timestamp":1751201216768,"hash":"0e8de87cc7ebe2819303d6a718a1e1d109f5888eeea63607ae4f3c27e53d94ed","lastHash":"a44bb5c58e028e6c4f48f96da6c4f2fa43e35eef98e4040e7a5cf5a02355ae57","data":[{"name":"Johan"}],"nonce":19,"difficulty":1},{"timestamp":1751201232971,"hash":"5ee0e7cd5dc039abc545eea74e5e9c13d6c64066120b7885b5991ff46df047ac","lastHash":"0e8de87cc7ebe2819303d6a718a1e1d109f5888eeea63607ae4f3c27e53d94ed","data":[{"name":"Johan"}],"nonce":1,"difficulty":0}]
+[
+  {
+    "timestamp": 1750338374133,
+    "hash": "#1 genesis block",
+    "lastHash": "############",
+    "data": [],
+    "nonce": 0,
+    "difficulty": 3,
+    "message": "Decentralized, yet side by side,\nNo third-party could override.\nOur keys are shared, our secrets too,\nCuddle and smiles between us two."
+  },
+  {
+    "timestamp": 1750338474748,
+    "hash": "0070a1217db604f9a56c6a4d1eb3b2201215362a36cf7199fea6b5f1ac4723f2",
+    "lastHash": "#1 genesis block",
+    "data": "New juicy chain test",
+    "nonce": 112,
+    "difficulty": 2,
+    "message": "This is actually the cuddle-coin chain. Seems to be working."
+  },
+  {
+    "timestamp": 1750850313205,
+    "hash": "0c171fb84a14b9fe1cb12b8abd6f6af99d5f23346333ff4180923c21f4297a9c",
+    "lastHash": "0070a1217db604f9a56c6a4d1eb3b2201215362a36cf7199fea6b5f1ac4723f2",
+    "data": "New juicy chain test",
+    "nonce": 16,
+    "difficulty": 1,
+    "message": "This is actually the cuddle-coin chain. Seems to be working."
+  },
+  {
+    "timestamp": 1750850789254,
+    "hash": "7e31d2c6ba64a6db07bd992bd37288cea9ccfb433cf214d623bf8fa52eda4b80",
+    "lastHash": "0c171fb84a14b9fe1cb12b8abd6f6af99d5f23346333ff4180923c21f4297a9c",
+    "data": "New juicy chain test",
+    "nonce": 1,
+    "difficulty": 0,
+    "message": "Pubnub test"
+  },
+  {
+    "timestamp": 1750850880460,
+    "hash": "0c71bc3f3f0514f9458c43bc025dca7e92124cabb36c393431701f8b8fa08487",
+    "lastHash": "7e31d2c6ba64a6db07bd992bd37288cea9ccfb433cf214d623bf8fa52eda4b80",
+    "data": "New juicy chain test",
+    "nonce": 5,
+    "difficulty": 1,
+    "message": "Pubnub test"
+  },
+  {
+    "timestamp": 1750852037491,
+    "hash": "1458572a99a655e44f908a5275675b0155a38913796a8368519ea0f59b467950",
+    "lastHash": "0c71bc3f3f0514f9458c43bc025dca7e92124cabb36c393431701f8b8fa08487",
+    "nonce": 1,
+    "difficulty": 0
+  },
+  {
+    "timestamp": 1750852129740,
+    "hash": "04557fe5e68c43ca562032c2fef311f6504355997244dfd34f09fec3f4edeb1a",
+    "lastHash": "1458572a99a655e44f908a5275675b0155a38913796a8368519ea0f59b467950",
+    "data": "Cool test",
+    "nonce": 8,
+    "difficulty": 1,
+    "message": "Lovely juicy test weith pubnub"
+  },
+  {
+    "timestamp": 1751191987119,
+    "hash": "af28be579c7dee46677f6c7e0f29067f5b9926c6ab0b670faf956bc25a7124de",
+    "lastHash": "04557fe5e68c43ca562032c2fef311f6504355997244dfd34f09fec3f4edeb1a",
+    "nonce": 1,
+    "difficulty": 0
+  },
+  {
+    "timestamp": 1751191996847,
+    "hash": "05a56503cf751aad3afb034f3bae389a845dea7f9201359cbed11495cdff981b",
+    "lastHash": "af28be579c7dee46677f6c7e0f29067f5b9926c6ab0b670faf956bc25a7124de",
+    "nonce": 29,
+    "difficulty": 1
+  },
+  {
+    "timestamp": 1751192168108,
+    "hash": "a44bb5c58e028e6c4f48f96da6c4f2fa43e35eef98e4040e7a5cf5a02355ae57",
+    "lastHash": "05a56503cf751aad3afb034f3bae389a845dea7f9201359cbed11495cdff981b",
+    "data": [{ "name": "Johan" }],
+    "nonce": 1,
+    "difficulty": 0
+  },
+  {
+    "timestamp": 1751201216768,
+    "hash": "0e8de87cc7ebe2819303d6a718a1e1d109f5888eeea63607ae4f3c27e53d94ed",
+    "lastHash": "a44bb5c58e028e6c4f48f96da6c4f2fa43e35eef98e4040e7a5cf5a02355ae57",
+    "data": [{ "name": "Johan" }],
+    "nonce": 19,
+    "difficulty": 1
+  },
+  {
+    "timestamp": 1751201232971,
+    "hash": "5ee0e7cd5dc039abc545eea74e5e9c13d6c64066120b7885b5991ff46df047ac",
+    "lastHash": "0e8de87cc7ebe2819303d6a718a1e1d109f5888eeea63607ae4f3c27e53d94ed",
+    "data": [{ "name": "Johan" }],
+    "nonce": 1,
+    "difficulty": 0
+  }
+]

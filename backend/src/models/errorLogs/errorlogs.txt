@@ -206,3 +206,19 @@ Time: 13:18:35
 Success: undefined
 Message: Cannot read properties of undefined (reading 'chain')
 
+
+ERROR LOG
+URL: /api/blocks/mine
+Date: 2025-07-09
+Time: 12:49:40
+Success: undefined
+Message: server.broadcastCahin is not a function
+
+
+ERROR LOG
+URL: /api/blocks/mine
+Date: 2025-07-09
+Time: 12:50:12
+Success: undefined
+Message: server.broadcastCahin is not a function
+
