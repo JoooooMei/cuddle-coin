@@ -16,6 +16,9 @@ export default class AppError extends Error {
       case 404:
         this.status = 'Not Found, input did not match any records';
         break;
+      case 405:
+        this.status = 'Method not allowed';
+        break;
       case statusCode.toString().startsWith('5'):
         this.status = 'Internal Server Error';
         break;

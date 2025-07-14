@@ -1,0 +1,280 @@
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-27
+Time: 15:02:47
+Success: undefined
+Message: Converting circular structure to JSON
+    --> starting at object with constructor 'Transaction'
+    --- property 'id' closes the circle
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-27
+Time: 15:03:54
+Success: undefined
+Message: Converting circular structure to JSON
+    --> starting at object with constructor 'Transaction'
+    --- property 'id' closes the circle
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-27
+Time: 15:06:39
+Success: undefined
+Message: Converting circular structure to JSON
+    --> starting at object with constructor 'Transaction'
+    --- property 'id' closes the circle
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-27
+Time: 15:06:40
+Success: undefined
+Message: Converting circular structure to JSON
+    --> starting at object with constructor 'Transaction'
+    --- property 'id' closes the circle
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-27
+Time: 15:13:28
+Success: undefined
+Message: address is not defined
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-27
+Time: 15:14:00
+Success: undefined
+Message: address is not defined
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-27
+Time: 15:14:25
+Success: undefined
+Message: address is not defined
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-27
+Time: 15:18:50
+Success: undefined
+Message: address is not defined
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-27
+Time: 15:25:20
+Success: undefined
+Message: address is not defined
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-27
+Time: 15:25:28
+Success: undefined
+Message: address is not defined
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-27
+Time: 15:26:20
+Success: undefined
+Message: address is not defined
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-27
+Time: 15:28:01
+Success: undefined
+Message: address is not defined
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-29
+Time: 11:23:46
+Success: undefined
+Message: address is not defined
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-29
+Time: 11:46:03
+Success: undefined
+Message: address is not defined
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-29
+Time: 11:51:11
+Success: undefined
+Message: address is not defined
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-06-29
+Time: 11:51:35
+Success: undefined
+Message: address is not defined
+
+
+ERROR LOG
+URL: /api/v1/wallet/transactions
+Date: 2025-06-29
+Time: 12:14:24
+Success: undefined
+Message: address is not defined
+
+
+ERROR LOG
+URL: /api/v1/wallet/transactions
+Date: 2025-06-29
+Time: 14:18:24
+Success: undefined
+Message: address is not defined
+
+
+ERROR LOG
+URL: /api/v1/blocks
+Date: 2025-06-29
+Time: 14:51:53
+Success: undefined
+Message: blockChain.add is not a function
+
+
+ERROR LOG
+URL: /api/v1/blocks
+Date: 2025-06-29
+Time: 14:51:56
+Success: undefined
+Message: blockChain.add is not a function
+
+
+ERROR LOG
+URL: /api/v1/blocks
+Date: 2025-06-29
+Time: 14:52:28
+Success: undefined
+Message: blockChain.add is not a function
+
+
+ERROR LOG
+URL: /api/v1/blocks
+Date: 2025-06-29
+Time: 14:53:18
+Success: undefined
+Message: blockChain.add is not a function
+
+
+ERROR LOG
+URL: /api/v1/blocks
+Date: 2025-06-29
+Time: 14:57:50
+Success: undefined
+Message: server is not defined
+
+
+ERROR LOG
+URL: /api/wallet/transactions/mine
+Date: 2025-07-07
+Time: 13:15:22
+Success: undefined
+Message: Cannot read properties of undefined (reading 'chain')
+
+
+ERROR LOG
+URL: /api/wallet/transactions/mine
+Date: 2025-07-07
+Time: 13:18:35
+Success: undefined
+Message: Cannot read properties of undefined (reading 'chain')
+
+
+ERROR LOG
+URL: /api/blocks/mine
+Date: 2025-07-09
+Time: 12:49:40
+Success: undefined
+Message: server.broadcastCahin is not a function
+
+
+ERROR LOG
+URL: /api/blocks/mine
+Date: 2025-07-09
+Time: 12:50:12
+Success: undefined
+Message: server.broadcastCahin is not a function
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-07-14
+Time: 11:49:06
+Success: undefined
+Message: Unexpected non-whitespace character after JSON at position 48 (line 5 column 1)
+
+
+ERROR LOG
+URL: /api/wallet/transactionsh
+Date: 2025-07-14
+Time: 13:07:35
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/wallet/transactions/ost
+Date: 2025-07-14
+Time: 13:08:19
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/wallet/transactionss
+Date: 2025-07-14
+Time: 13:08:26
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-07-14
+Time: 13:14:33
+Success: undefined
+Message: Unexpected non-whitespace character after JSON at position 51 (line 5 column 1)
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-07-14
+Time: 13:14:55
+Success: undefined
+Message: Unexpected non-whitespace character after JSON at position 51 (line 5 column 1)
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-07-14
+Time: 13:17:05
+Success: undefined
+Message: Unexpected non-whitespace character after JSON at position 51 (line 5 column 1)
+

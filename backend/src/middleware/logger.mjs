@@ -1,6 +1,6 @@
 import Storage from '../models/blockchain/Storage.mjs';
 
-const logs = new Storage('../errorLogs', 'errorlogs.txt');
+const logs = new Storage('../../errorLogs', 'errorlogs.txt');
 
 export const logger = async (err, req, res, next) => {
   const message = `\nERROR LOG\nURL: ${
