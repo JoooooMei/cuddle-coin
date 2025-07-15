@@ -27,7 +27,8 @@
     "express-xss-sanitizer": "^2.0.0",
     "helmet": "^8.1.0",
     "hpp": "^0.2.3",
-    "mongoose": "^8.14.1",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.3",
     "pubnub": "^9.5.2",
     "uuid": "^11.1.0"
   }

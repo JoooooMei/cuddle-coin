@@ -278,3 +278,379 @@ Time: 13:17:05
 Success: undefined
 Message: Unexpected non-whitespace character after JSON at position 51 (line 5 column 1)
 
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-07-15
+Time: 12:46:25
+Success: undefined
+Message: transaction.update is not a function
+
+
+ERROR LOG
+URL: /api/users/
+Date: 2025-07-15
+Time: 14:11:44
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/users/
+Date: 2025-07-15
+Time: 14:12:41
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/users/
+Date: 2025-07-15
+Time: 14:13:44
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/users/
+Date: 2025-07-15
+Time: 14:14:41
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/users/
+Date: 2025-07-15
+Time: 14:15:20
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/users/
+Date: 2025-07-15
+Time: 14:15:27
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/users/
+Date: 2025-07-15
+Time: 14:18:49
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/users/users
+Date: 2025-07-15
+Time: 14:19:06
+Success: undefined
+Message: Maximum call stack size exceeded
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-15
+Time: 14:19:16
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-15
+Time: 14:19:34
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-15
+Time: 14:19:59
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-15
+Time: 14:20:30
+Success: undefined
+Message: Maximum call stack size exceeded
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-15
+Time: 14:20:33
+Success: undefined
+Message: Maximum call stack size exceeded
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-15
+Time: 14:22:29
+Success: undefined
+Message: Maximum call stack size exceeded
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-15
+Time: 14:23:14
+Success: undefined
+Message: Maximum call stack size exceeded
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-15
+Time: 14:23:16
+Success: undefined
+Message: Maximum call stack size exceeded
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-15
+Time: 14:23:46
+Success: undefined
+Message: Maximum call stack size exceeded
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-15
+Time: 14:34:12
+Success: undefined
+Message: UserRepository.addUser is not a constructor
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-15
+Time: 14:38:06
+Success: undefined
+Message: users is not defined
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-15
+Time: 14:43:56
+Success: undefined
+Message: UserRepository.addUser is not a constructor
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-15
+Time: 14:44:18
+Success: undefined
+Message: UserRepository.addUser is not a constructor
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-15
+Time: 14:45:09
+Success: undefined
+Message: UserRepository.addUser is not a constructor
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-15
+Time: 14:45:37
+Success: undefined
+Message: UserRepository.addUser is not a constructor
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-15
+Time: 14:45:56
+Success: undefined
+Message: UserRepository.addUser is not a constructor
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-15
+Time: 14:54:57
+Success: undefined
+Message: userModel.create is not a constructor
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-15
+Time: 15:04:09
+Success: undefined
+Message: user is not defined
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-15
+Time: 15:04:24
+Success: undefined
+Message: user is not defined
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-15
+Time: 15:04:44
+Success: undefined
+Message: user is not defined
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-15
+Time: 15:05:29
+Success: undefined
+Message: user is not defined
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-15
+Time: 15:09:11
+Success: undefined
+Message: Cannot read properties of undefined (reading 'ok')
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-15
+Time: 15:11:48
+Success: undefined
+Message: users is not defined
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-15
+Time: 15:12:06
+Success: undefined
+Message: user is not defined
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-15
+Time: 15:12:37
+Success: undefined
+Message: User validation failed: userName: Username is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-15
+Time: 15:35:44
+Success: undefined
+Message: User validation failed: role: Path `role` is required.
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-15
+Time: 15:35:58
+Success: undefined
+Message: User validation failed: role: `useadsfr` is not a valid enum value for path `role`.
+
+
+ERROR LOG
+URL: /api/users/6876528bc16b16b098ed5598
+Date: 2025-07-15
+Time: 15:49:10
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/users/6876528bc16b16b098ed5598
+Date: 2025-07-15
+Time: 15:50:26
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/users/6876528bc16b16b098ed5598
+Date: 2025-07-15
+Time: 15:54:21
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/users/6876528bc16b16b098ed5598
+Date: 2025-07-15
+Time: 15:55:46
+Success: undefined
+Message: Cast to ObjectId failed for value "{}" (type Object) at path "_id" for model "User"
+
+
+ERROR LOG
+URL: /api/users/6876528bc16b16b098ed5598
+Date: 2025-07-15
+Time: 15:57:45
+Success: undefined
+Message: Cast to ObjectId failed for value "{}" (type Object) at path "_id" for model "User"
+
+
+ERROR LOG
+URL: /api/users/68764fc3c18115062855a0a9
+Date: 2025-07-15
+Time: 16:03:54
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/users/68764fc3c18115062855
+Date: 2025-07-15
+Time: 16:04:48
+Success: undefined
+Message: Cast to ObjectId failed for value "68764fc3c18115062855" (type string) at path "_id" for model "User"
+
+
+ERROR LOG
+URL: /api/users/68764fc3c18115062855a0a
+Date: 2025-07-15
+Time: 16:04:57
+Success: undefined
+Message: Cast to ObjectId failed for value "68764fc3c18115062855a0a" (type string) at path "_id" for model "User"
+
+
+ERROR LOG
+URL: /api/users/68764fc3c18115062855a0a
+Date: 2025-07-15
+Time: 16:05:02
+Success: undefined
+Message: Cast to ObjectId failed for value "68764fc3c18115062855a0a" (type string) at path "_id" for model "User"
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-15
+Time: 16:10:54
+Success: undefined
+Message: E11000 duplicate key error collection: cuddle-coin.users index: userName_1 dup key: { userName: "Oxen" }
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-15
+Time: 16:11:06
+Success: undefined
+Message: E11000 duplicate key error collection: cuddle-coin.users index: userName_1 dup key: { userName: "Oxen2" }
+

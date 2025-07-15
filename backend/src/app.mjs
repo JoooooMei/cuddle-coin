@@ -5,6 +5,7 @@ import cors from 'cors';
 import helmet from 'helmet';
 import hpp from 'hpp';
 import dotenv from 'dotenv';
+import { connectDb } from './db/database.mjs';
 
 dotenv.config({ path: './config/config.env' });
 
@@ -14,6 +15,7 @@ const limiter = rateLimit({
   message: 'You are killing me, get lost!!!',
 });
 
+await connectDb();
 const app = express();
 
 app.use(express.json());
