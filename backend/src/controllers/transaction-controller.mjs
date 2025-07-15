@@ -44,23 +44,6 @@ export const getAllTransactions = catchErrorAsync(async (req, res) => {
   });
 });
 
-export const mineTransactionsOld = catchErrorAsync(async (req, res) => {
-  const miner = new Miner({
-    transactionPool,
-    wallet,
-    blockchain: blockChain,
-    server,
-  });
-
-  miner.mineTransactions();
-
-  res.status(200).json({
-    success: true,
-    statusCode: 200,
-    data: 'Seems to work fine!',
-  });
-});
-
 export const mineTransactions = catchErrorAsync(async (req, res) => {
   await new BlockchainRepository().mineTransactions();
 
