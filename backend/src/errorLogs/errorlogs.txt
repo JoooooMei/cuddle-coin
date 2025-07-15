@@ -278,3 +278,11 @@ Time: 13:17:05
 Success: undefined
 Message: Unexpected non-whitespace character after JSON at position 51 (line 5 column 1)
 
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-07-15
+Time: 12:46:25
+Success: undefined
+Message: transaction.update is not a function
+

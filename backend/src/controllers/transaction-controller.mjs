@@ -2,6 +2,7 @@ import { transactionPool, wallet, server, blockChain } from '../server.mjs';
 import Miner from '../models/miner/Miner.mjs';
 import Wallet from '../models/wallet/Wallet.mjs';
 import { catchErrorAsync } from '../utilities/catchErrorAsync.mjs';
+import BlockchainRepository from '../repository/BlockchainRepository.mjs';
 
 export const addTransaction = catchErrorAsync(async (req, res) => {
   const { amount, recipient } = req.body;
@@ -43,7 +44,7 @@ export const getAllTransactions = catchErrorAsync(async (req, res) => {
   });
 });
 
-export const mineTransactions = catchErrorAsync(async (req, res) => {
+export const mineTransactionsOld = catchErrorAsync(async (req, res) => {
   const miner = new Miner({
     transactionPool,
     wallet,
@@ -52,6 +53,16 @@ export const mineTransactions = catchErrorAsync(async (req, res) => {
   });
 
   miner.mineTransactions();
+
+  res.status(200).json({
+    success: true,
+    statusCode: 200,
+    data: 'Seems to work fine!',
+  });
+});
+
+export const mineTransactions = catchErrorAsync(async (req, res) => {
+  await new BlockchainRepository().mineTransactions();
 
   res.status(200).json({
     success: true,
