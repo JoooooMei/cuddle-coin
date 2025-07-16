@@ -2,7 +2,7 @@
 
 Simple blockchain with coin, using pubnub
 
-To run app, creata a config folder in backend root folder and add config.env with:
+To run app, create a config folder in backend root folder and add config.env with:
 
 - PORT
 - NODE_ENV=development
