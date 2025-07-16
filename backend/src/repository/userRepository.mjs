@@ -7,8 +7,8 @@ export default class UserRepository {
     return user;
   }
   async addUser(user) {
-    const { userName, password, role } = user;
-    return await userModel.create({ userName, password, role });
+    const { userName, password, role, email } = user;
+    return await userModel.create({ userName, email, password, role });
   }
 
   async getAllUsers() {

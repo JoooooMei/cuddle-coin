@@ -686,3 +686,43 @@ Time: 12:28:59
 Success: undefined
 Message: User validation failed: role: Path `role` is required., password: Password is required, userName: Username is required
 
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-16
+Time: 12:45:56
+Success: undefined
+Message: User validation failed: email: Email is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-16
+Time: 12:46:14
+Success: undefined
+Message: User validation failed: email: Email is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-16
+Time: 12:47:18
+Success: undefined
+Message: User validation failed: email: Email address is not valid
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-16
+Time: 12:50:11
+Success: undefined
+Message: User validation failed: email: Email address is not valid
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-16
+Time: 12:56:20
+Success: undefined
+Message: User validation failed: password: Path `password` (`156`) is shorter than the minimum allowed length (8).
+

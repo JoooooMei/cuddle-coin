@@ -1,5 +1,6 @@
 import mongoose from 'mongoose';
 import bcrypt from 'bcryptjs';
+import validator from 'validator';
 
 const userSchema = new mongoose.Schema({
   userName: {
@@ -7,9 +8,16 @@ const userSchema = new mongoose.Schema({
     unique: true,
     required: [true, 'Username is required'],
   },
+  email: {
+    type: String,
+    unique: true,
+    required: [true, 'Email is required'],
+    validate: [validator.isEmail, 'Email address is not valid'],
+  },
   password: {
     type: String,
     required: [true, 'Password is required'],
+    minlength: 8,
     select: false,
   },
   role: {
