@@ -1,5 +1,7 @@
 # cuddle-coin
 
+Simple blockchain with coin, using pubnub for bradcasting
+
 To run app, creata a config folder in backend root folder and add config.env with:
 
 - PORT
