@@ -32,4 +32,9 @@ app.use(hpp());
 
 app.use(express.json({ limit: '10kb' }));
 
+// app.use((req, res, next) => {
+//   console.log('Header Info: ', req.headers.authorization);
+//   next();
+// });
+
 export { app };

@@ -726,3 +726,195 @@ Time: 12:56:20
 Success: undefined
 Message: User validation failed: password: Path `password` (`156`) is shorter than the minimum allowed length (8).
 
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-16
+Time: 13:19:06
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-16
+Time: 13:19:50
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-16
+Time: 13:19:52
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-16
+Time: 13:21:50
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-16
+Time: 13:21:52
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-16
+Time: 13:31:43
+Success: undefined
+Message: login is not defined
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-16
+Time: 13:31:53
+Success: undefined
+Message: login is not defined
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-16
+Time: 13:33:03
+Success: undefined
+Message: Cast to string failed for value "{ email: 'johan@mail.se', password: true }" (type Object) at path "email" for model "User"
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-16
+Time: 13:33:05
+Success: undefined
+Message: Cast to string failed for value "{ email: 'johan@mail.se', password: true }" (type Object) at path "email" for model "User"
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-20
+Time: 14:10:42
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-20
+Time: 14:11:27
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-20
+Time: 14:14:48
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-20
+Time: 14:34:30
+Success: undefined
+Message: Cannot read properties of undefined (reading 'SECTRET')
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-20
+Time: 14:34:46
+Success: undefined
+Message: Cannot read properties of undefined (reading 'SECTRET')
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-20
+Time: 14:35:03
+Success: undefined
+Message: Cannot read properties of undefined (reading 'SECRET')
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-20
+Time: 15:15:39
+Success: undefined
+Message: E11000 duplicate key error collection: cuddle-coin.users index: userName_1 dup key: { userName: "admifna" }
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-20
+Time: 15:20:02
+Success: undefined
+Message: E11000 duplicate key error collection: cuddle-coin.users index: userName_1 dup key: { userName: "adamiafnaaa" }
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-20
+Time: 15:20:25
+Success: undefined
+Message: E11000 duplicate key error collection: cuddle-coin.users index: email_1 dup key: { email: "johan@maaaaiafaaal.se" }
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-20
+Time: 15:21:11
+Success: undefined
+Message: E11000 duplicate key error collection: cuddle-coin.users index: email_1 dup key: { email: "johan@maaaaiaafaaaal.se" }
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-20
+Time: 15:22:57
+Success: undefined
+Message: User validation failed: password: Password is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-20
+Time: 15:23:25
+Success: undefined
+Message: E11000 duplicate key error collection: cuddle-coin.users index: userName_1 dup key: { userName: "adamaiafanaaaaaaaaa" }
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-20
+Time: 15:23:42
+Success: undefined
+Message: User validation failed: password: Password is required
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-20
+Time: 15:27:05
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-20
+Time: 15:28:07
+Success: undefined
+Message: E11000 duplicate key error collection: cuddle-coin.users index: userName_1 dup key: { userName: "admin" }
+

@@ -4,6 +4,7 @@ import { logger } from './middleware/logger.mjs';
 import blockchainRoutes from './routes/blockchain-routes.mjs';
 import transactionRoutes from './routes/transaction-routes.mjs';
 import userRoutes from './routes/user-routes.mjs';
+import authRoutes from './routes/authRoutes.mjs';
 import networkServer from './network.mjs';
 import Blockchain from './models/blockchain/Blockchain.mjs';
 import TransactionPool from './models/wallet/TransactionPool.mjs';
@@ -26,6 +27,7 @@ let NODE_PORT;
 app.use('/api/blocks', blockchainRoutes);
 app.use('/api/wallet', transactionRoutes);
 app.use('/api/users', userRoutes);
+app.use('/api/auth', authRoutes);
 
 app.all('*', (req, res, next) => {
   next(

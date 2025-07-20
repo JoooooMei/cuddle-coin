@@ -2,13 +2,11 @@ import userModel from '../models/schema/userModel.mjs';
 
 export default class UserRepository {
   async addUser(user) {
-    await userModel.create(user);
+    const addedUser = await userModel.create(user);
 
-    return user;
-  }
-  async addUser(user) {
-    const { userName, password, role, email } = user;
-    return await userModel.create({ userName, email, password, role });
+    addedUser.password = undefined;
+
+    return addedUser;
   }
 
   async getAllUsers() {
@@ -17,6 +15,12 @@ export default class UserRepository {
 
   async getUser(id) {
     return await userModel.findById(id);
+  }
+
+  async getUserByEmail({ email, login }) {
+    return login === true
+      ? await userModel.findOne({ email: email }).select('+password')
+      : await userModel.findOne({ email: email });
   }
 
   async deleteUser(id) {
