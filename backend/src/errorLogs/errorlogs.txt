@@ -918,3 +918,291 @@ Time: 15:28:07
 Success: undefined
 Message: E11000 duplicate key error collection: cuddle-coin.users index: userName_1 dup key: { userName: "admin" }
 
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 16:04:52
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 16:05:53
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 16:06:08
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 16:06:13
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 16:06:19
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 16:06:36
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 16:07:14
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 16:09:02
+Success: undefined
+Message: You need to be logged in as admin
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 16:09:13
+Success: undefined
+Message: You need to be logged in as admin
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 16:11:00
+Success: undefined
+Message: You need to be logged in as admin
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 16:16:12
+Success: undefined
+Message: You need to be logged in as admin
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-20
+Time: 16:25:46
+Success: undefined
+Message: E11000 duplicate key error collection: cuddle-coin.users index: email_1 dup key: { email: "johan@mail.se" }
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 16:42:51
+Success: undefined
+Message: secret or public key must be provided
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 16:43:26
+Success: undefined
+Message: secret or public key must be provided
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 16:44:44
+Success: undefined
+Message: invalid token
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-20
+Time: 16:48:31
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 17:03:49
+Success: undefined
+Message: You need to be logged in as admin
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 17:05:26
+Success: undefined
+Message: You need to be logged in as admin
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 17:07:42
+Success: undefined
+Message: You need to be logged in as admin
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 17:08:20
+Success: undefined
+Message: Tou are just a simple peasant and not allowed to view this content
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 17:12:35
+Success: undefined
+Message: Tou are just a simple peasant and not allowed to view this content
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 17:19:42
+Success: undefined
+Message: UserRepository.getUser is not a function
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 17:20:01
+Success: undefined
+Message: UserRepository.getUser is not a constructor
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 17:20:54
+Success: undefined
+Message: UserRepository.getUser is not a constructor
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 17:21:19
+Success: undefined
+Message: UserRepository.getUser is not a constructor
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 17:33:30
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 17:34:04
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 17:34:07
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 17:35:09
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 17:35:19
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 17:42:27
+Success: undefined
+Message: resolveSoa is not defined
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 17:42:56
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 17:44:10
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 17:44:55
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 17:45:20
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-20
+Time: 17:45:40
+Success: undefined
+Message: Peasents not allowed
+
