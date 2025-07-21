@@ -5,15 +5,19 @@ import {
   getAllTransactions,
   mineTransactions,
 } from '../controllers/transaction-controller.mjs';
-import { protect, authorize } from '../controllers/auth-controller.mjs';
+import { authorize, protect } from '../controllers/auth-controller.mjs';
 
 const router = Router();
 
 router
   .route('/transactions')
-  .post(authorize, addTransaction)
+  .post(protect, addTransaction)
   .get(getAllTransactions);
-router.route('/transactions/mine').get(mineTransactions);
-router.route('/info').get(getWalletInfo);
+
+router
+  .route('/transactions/mine')
+  .get(protect, authorize('miner'), mineTransactions);
+
+router.route('/info').get(protect, getWalletInfo);
 
 export default router;

@@ -1342,3 +1342,219 @@ Time: 14:55:02
 Success: undefined
 Message: You need to be logged in
 
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-07-21
+Time: 15:04:37
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-21
+Time: 15:05:46
+Success: undefined
+Message: User validation failed: role: Cast to string failed for value "[ 'user', 'admin' ]" (type Array) at path "role"
+
+
+ERROR LOG
+URL: /api/blocks/mine
+Date: 2025-07-21
+Time: 15:22:11
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/blocks/mine
+Date: 2025-07-21
+Time: 15:22:56
+Success: undefined
+Message: Peasents not allowed
+
+
+ERROR LOG
+URL: /api/blocks/mine
+Date: 2025-07-21
+Time: 15:24:34
+Success: undefined
+Message: Peasents not allowed
+
+
+ERROR LOG
+URL: /api/blocks/mine
+Date: 2025-07-21
+Time: 15:25:22
+Success: undefined
+Message: Peasents not allowed
+
+
+ERROR LOG
+URL: /api/blocks/mine
+Date: 2025-07-21
+Time: 15:26:33
+Success: undefined
+Message: Peasents not allowed
+
+
+ERROR LOG
+URL: /api/blocks/mine
+Date: 2025-07-21
+Time: 15:34:14
+Success: undefined
+Message: invalid token
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-07-21
+Time: 15:35:15
+Success: undefined
+Message: invalid token
+
+
+ERROR LOG
+URL: /api/wallet/transactions/mine
+Date: 2025-07-21
+Time: 15:38:58
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions/mine?Authorization=bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4N2UzYjNhYzliNTM3OGY4MTYyZDFjMSIsInJvbGUiOlsidXNlciJdLCJpYXQiOjE3NTMxMDUxOTMsImV4cCI6MTc1MzcwOTk5M30.f6m7ADqHw2TjLcM5J5eLWSyxxtIn8AdG4meOy9Tn3gw
+Date: 2025-07-21
+Time: 15:40:04
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions/mine?Authorization=bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4N2UzYjNhYzliNTM3OGY4MTYyZDFjMSIsInJvbGUiOlsidXNlciJdLCJpYXQiOjE3NTMxMDUyMTYsImV4cCI6MTc1MzcxMDAxNn0.JCjw9fkZs3W3ZyUwDfRTt8QN3AKMZiNnawIrG3OJVQw
+Date: 2025-07-21
+Time: 15:40:34
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions/mine?Authorization=bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4N2UzYjNhYzliNTM3OGY4MTYyZDFjMSIsInJvbGUiOlsidXNlciJdLCJpYXQiOjE3NTMxMDQ4OTUsImV4cCI6MTc1MzcwOTY5NX0.zhybpt6_9eudsyanYGyDmjmZWuOtIvIoH4ezc1HJApM
+Date: 2025-07-21
+Time: 15:41:02
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions/mine?Authorization=bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4N2UzYjNhYzliNTM3OGY4MTYyZDFjMSIsInJvbGUiOlsidXNlciJdLCJpYXQiOjE3NTMxMDQ4OTUsImV4cCI6MTc1MzcwOTY5NX0.zhybpt6_9eudsyanYGyDmjmZWuOtIvIoH4ezc1HJApM
+Date: 2025-07-21
+Time: 15:41:29
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions/mine?Authorization=bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4N2U0M2NlNDQwNmI3N2E1ZjY1ZDljNCIsInJvbGUiOlsidXNlciJdLCJpYXQiOjE3NTMxMDUzNjksImV4cCI6MTc1MzcxMDE2OX0.whKCIWVo2MQCq_umT2r3meBkfe7bAXQX8hJiZlcVhZE
+Date: 2025-07-21
+Time: 15:43:06
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions/mine?Authorization=bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4N2U0M2NlNDQwNmI3N2E1ZjY1ZDljNCIsInJvbGUiOlsidXNlciJdLCJpYXQiOjE3NTMxMDUzNjksImV4cCI6MTc1MzcxMDE2OX0.whKCIWVo2MQCq_umT2r3meBkfe7bAXQX8hJiZlcVhZE
+Date: 2025-07-21
+Time: 15:44:59
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions/mine?Authorization=bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4N2U0M2NlNDQwNmI3N2E1ZjY1ZDljNCIsInJvbGUiOlsidXNlciJdLCJpYXQiOjE3NTMxMDU0NzgsImV4cCI6MTc1MzcxMDI3OH0.HGB3ftA0lFdJCd-LmgwlryRkmb899hxazlMTwBYFYWw
+Date: 2025-07-21
+Time: 15:45:06
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions/mine?Authorization=bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4N2U0M2NlNDQwNmI3N2E1ZjY1ZDljNCIsInJvbGUiOlsidXNlciJdLCJpYXQiOjE3NTMxMDU0NzgsImV4cCI6MTc1MzcxMDI3OH0.HGB3ftA0lFdJCd-LmgwlryRkmb899hxazlMTwBYFYWw
+Date: 2025-07-21
+Time: 15:45:55
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions/mine?Authorization=bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4N2U0M2NlNDQwNmI3N2E1ZjY1ZDljNCIsInJvbGUiOlsidXNlciJdLCJpYXQiOjE3NTMxMDU0NzgsImV4cCI6MTc1MzcxMDI3OH0.HGB3ftA0lFdJCd-LmgwlryRkmb899hxazlMTwBYFYWw
+Date: 2025-07-21
+Time: 15:46:16
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions/mine
+Date: 2025-07-21
+Time: 15:46:25
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions/mine?Authorization=bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4N2U0M2NlNDQwNmI3N2E1ZjY1ZDljNCIsInJvbGUiOlsidXNlciJdLCJpYXQiOjE3NTMxMDU0NzgsImV4cCI6MTc1MzcxMDI3OH0.HGB3ftA0lFdJCd-LmgwlryRkmb899hxazlMTwBYFYWw
+Date: 2025-07-21
+Time: 15:46:52
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions/mine?Authorization=bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4N2U0M2NlNDQwNmI3N2E1ZjY1ZDljNCIsInJvbGUiOlsidXNlciJdLCJpYXQiOjE3NTMxMDU0NzgsImV4cCI6MTc1MzcxMDI3OH0.HGB3ftA0lFdJCd-LmgwlryRkmb899hxazlMTwBYFYWw
+Date: 2025-07-21
+Time: 15:47:03
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-21
+Time: 15:47:36
+Success: undefined
+Message: Cannot read properties of null (reading 'role')
+
+
+ERROR LOG
+URL: /api/wallet/transactions/mine
+Date: 2025-07-21
+Time: 15:50:34
+Success: undefined
+Message: invalid token
+
+
+ERROR LOG
+URL: /api/wallet/transactions/mine
+Date: 2025-07-21
+Time: 15:50:41
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions/mine
+Date: 2025-07-21
+Time: 15:51:42
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-07-21
+Time: 16:08:16
+Success: undefined
+Message: You need to be logged in
+

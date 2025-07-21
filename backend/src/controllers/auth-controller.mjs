@@ -30,6 +30,8 @@ export const protect = catchErrorAsync(async (req, res, next) => {
   let token;
   console.log('PROTECT ACTIVATED');
 
+  console.log('TOKEN: ', req.headers.authorization);
+
   if (
     req.headers.authorization &&
     req.headers.authorization.toLowerCase().startsWith('bearer')
@@ -49,15 +51,22 @@ export const protect = catchErrorAsync(async (req, res, next) => {
   next();
 });
 
-export const authorize = (...role) => {
+export const authorize = (...allowedRoles) => {
   return (req, res, next) => {
-    console.log('I MADE IT!');
-    console.log('role: ', req.user.role);
+    console.log('User roles: ', req.user.role);
+    console.log('Roles allowed: ', allowedRoles);
 
-    console.log('Roles allowed', role);
+    let hasAccess = false;
 
-    if (!role.includes(req.user.role)) {
-      return next(new AppError('Peasents not allowed', 403));
+    for (const userRole of req.user.role) {
+      if (allowedRoles.includes(userRole)) {
+        hasAccess = true;
+        break;
+      }
+    }
+
+    if (!hasAccess) {
+      return next(new AppError('Peasants not allowed', 403));
     }
 
     next();
