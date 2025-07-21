@@ -8,7 +8,7 @@ export default class AppError extends Error {
         this.status = 'Bad Request, information is missing';
         break;
       case 401:
-        this.status = 'Unauthorized, connect wallet';
+        this.status = 'Unauthorized, please log in';
         break;
       case 403:
         this.status = 'Unauthorized, access denied';

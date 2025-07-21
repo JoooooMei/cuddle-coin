@@ -1206,3 +1206,139 @@ Time: 17:45:40
 Success: undefined
 Message: Peasents not allowed
 
+
+ERROR LOG
+URL: /api/users/68764fc3c18115062855a0a9
+Date: 2025-07-21
+Time: 14:47:21
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users/68764fc3c18115062855a0a9
+Date: 2025-07-21
+Time: 14:48:24
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users/68764fc3c18115062855a0a9
+Date: 2025-07-21
+Time: 14:49:06
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-21
+Time: 14:49:23
+Success: undefined
+Message: Peasents not allowed
+
+
+ERROR LOG
+URL: /api/users/687d062cad3f1f61705e7dcb
+Date: 2025-07-21
+Time: 14:49:38
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users/687d062cad3f1f61705e7dcb
+Date: 2025-07-21
+Time: 14:50:16
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users/687d062cad3f1f61705e7dcb
+Date: 2025-07-21
+Time: 14:51:15
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users/687d062cad3f1f61705e7dcb
+Date: 2025-07-21
+Time: 14:51:17
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users/687d062cad3f1f61705e7dcb
+Date: 2025-07-21
+Time: 14:51:28
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users/687d062cad3f1f61705e7dcb
+Date: 2025-07-21
+Time: 14:52:28
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users/687d062cad3f1f61705e7dcb
+Date: 2025-07-21
+Time: 14:53:08
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users/687d062cad3f1f61705e7dcb
+Date: 2025-07-21
+Time: 14:53:12
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users/687d062cad3f1f61705e7dcb
+Date: 2025-07-21
+Time: 14:53:14
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users/687d062cad3f1f61705e7dcb
+Date: 2025-07-21
+Time: 14:53:37
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users/687d062cad3f1f61705e7dcb
+Date: 2025-07-21
+Time: 14:53:39
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users/687d062cad3f1f61705e7dcb
+Date: 2025-07-21
+Time: 14:54:00
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-21
+Time: 14:55:02
+Success: undefined
+Message: You need to be logged in
+

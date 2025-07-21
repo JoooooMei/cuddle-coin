@@ -11,6 +11,9 @@ const router = Router();
 
 router.route('/add').post(addUser);
 router.route('/').get(protect, authorize('admin'), getAllUsers);
-router.route('/:id').get(protect, getUser).delete(protect, deleteUser);
+router
+  .route('/:id')
+  .get(protect, getUser)
+  .delete(protect, authorize('admin'), deleteUser);
 
 export default router;

@@ -28,6 +28,7 @@ export const loginUser = catchErrorAsync(async (req, res, next) => {
 
 export const protect = catchErrorAsync(async (req, res, next) => {
   let token;
+  console.log('PROTECT ACTIVATED');
 
   if (
     req.headers.authorization &&
@@ -50,6 +51,7 @@ export const protect = catchErrorAsync(async (req, res, next) => {
 
 export const authorize = (...role) => {
   return (req, res, next) => {
+    console.log('I MADE IT!');
     console.log('role: ', req.user.role);
 
     console.log('Roles allowed', role);
