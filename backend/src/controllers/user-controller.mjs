@@ -4,7 +4,7 @@ import UserRepository from '../repository/userRepository.mjs';
 export const addUser = catchErrorAsync(async (req, res, next) => {
   const user = await new UserRepository().addUser(req.body);
 
-  res.status(201).json({ succsess: true, statusCode: 201, data: user });
+  res.status(201).json({ success: true, statusCode: 201, data: user });
 });
 
 export const getAllUsers = catchErrorAsync(async (req, res, next) => {
