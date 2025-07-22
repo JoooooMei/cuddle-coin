@@ -1,17 +1,16 @@
 import { useEffect, useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
 import './App.css';
 import './styles/styles.css';
-import RegisterNewUser from './components/RegisterNewUser';
 import { getAllUsers } from './services/userServices';
 import { getBlockchain } from './services/blockchainServices';
 import AllUsers from './components/AllUsers';
+import Header from './components/Header';
 
 function App() {
-  const [newUser, setNewUser] = useState({});
+  const [newUser, setNewUser] = useState(undefined);
   const [blockchain, setBlockchain] = useState(undefined);
   const [allUsers, setAllUsers] = useState(undefined);
+  const [JWT, setJWT] = useState('');
 
   useEffect(() => {
     const fetcBlockchain = async () => {
@@ -35,11 +34,12 @@ function App() {
 
   return (
     <>
-      <div>
+      <Header setNewUser={setNewUser} />
+      <section>
         <h1>Hello</h1>
-        <RegisterNewUser setNewUser={setNewUser} />
+
         <AllUsers allUsers={allUsers} />
-      </div>
+      </section>
     </>
   );
 }

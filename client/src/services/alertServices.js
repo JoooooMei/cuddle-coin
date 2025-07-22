@@ -6,8 +6,6 @@ export const newUserAlert = (message) => {
 
   const messageList = message.split(': ');
 
-  console.log(messageList);
-
   // Om epost eller lösenord inte möter kriterierna
   if (
     messageList[1] === 'email' ||

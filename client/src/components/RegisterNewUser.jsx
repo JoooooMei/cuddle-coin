@@ -57,10 +57,7 @@ const RegisterNewUser = ({ setNewUser }) => {
   const formAlert = (message) => {
     const alert = newUserAlert(message);
 
-    setInputAlert({
-      message: alert.message,
-      type: alert.type,
-    });
+    setInputAlert(alert);
 
     setTimeout(() => {
       setInputAlert(undefined);
@@ -69,6 +66,7 @@ const RegisterNewUser = ({ setNewUser }) => {
 
   return (
     <form className="" onSubmit={handleSubmit}>
+      <h2>Create Account</h2>
       <div>
         <label htmlFor="userName">Username</label>
         <input
@@ -94,7 +92,7 @@ const RegisterNewUser = ({ setNewUser }) => {
       <div>
         <label htmlFor="password">Password</label>
         <input
-          type="text"
+          type="password"
           name="password"
           id="password"
           value={formData.password}
@@ -143,7 +141,7 @@ const RegisterNewUser = ({ setNewUser }) => {
             <p>{inputAlert.message}</p>
           </div>
         )}
-        <button type="submit">Submit</button>
+        <button type="submit">Create account</button>
       </div>
     </form>
   );
