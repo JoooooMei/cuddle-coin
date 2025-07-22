@@ -36,8 +36,6 @@ function App() {
     <>
       <Header setNewUser={setNewUser} />
       <section>
-        <h1>Hello</h1>
-
         <AllUsers allUsers={allUsers} />
       </section>
     </>

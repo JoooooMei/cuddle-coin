@@ -5,7 +5,7 @@ export const getAllUsers = async () => {
     method: 'GET',
     headers: {
       authorization:
-        'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4N2UzYzU2Zjc0OTA1ZGYwMTMwMDI2YSIsInJvbGUiOlsiYWRtaW4iLCJtaW5lciJdLCJpYXQiOjE3NTMxMTQ5MTgsImV4cCI6MTc1MzcxOTcxOH0.0xthy04aZnxOJ4TtYGQ1lSCUQyQ7cuU5iLbayHYZCf0',
+        'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ODAwMjgzYjAyZDA4ZTk1OWU5ZmE1ZSIsInJvbGUiOlsidXNlciIsImFkbWluIiwibWluZXIiXSwiaWF0IjoxNzUzMjIwMDA5LCJleHAiOjE3NTM4MjQ4MDl9.jAq_okOq-b4HT1qS0kWM4A-ub_Z0r2zN1-016r90htc',
     },
   });
 
@@ -31,5 +31,19 @@ export const addUser = async (newUser) => {
     return result;
   } else {
     return await response.json();
+  }
+};
+
+export const deleteUserById = async (user) => {
+  const response = await fetch(`${URL}/${user}`, {
+    method: 'DELETE',
+    headers: {
+      authorization:
+        'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ODAwMjgzYjAyZDA4ZTk1OWU5ZmE1ZSIsInJvbGUiOlsidXNlciIsImFkbWluIiwibWluZXIiXSwiaWF0IjoxNzUzMjIwMDA5LCJleHAiOjE3NTM4MjQ4MDl9.jAq_okOq-b4HT1qS0kWM4A-ub_Z0r2zN1-016r90htc',
+    },
+  });
+
+  if (response.ok) {
+    return 'User deleted';
   }
 };
