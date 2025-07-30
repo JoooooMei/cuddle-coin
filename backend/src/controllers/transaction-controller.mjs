@@ -39,7 +39,7 @@ export const getWalletInfo = catchErrorAsync(async (req, res) => {
 export const getAllTransactions = catchErrorAsync(async (req, res) => {
   res.status(200).json({
     succsess: true,
-    tratusCode: 200,
+    statusCode: 200,
     data: transactionPool.transactionMap,
   });
 });

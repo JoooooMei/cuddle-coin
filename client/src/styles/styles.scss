@@ -1,5 +1,7 @@
-$theme-color: rgb(252, 198, 166);
+// $theme-color: rgb(252, 198, 166);
+$theme-color: #f3efec;
 $contrast-color: rgb(137, 193, 220);
+$menu-color: rgb(237, 233, 233);
 $max-width: 1440px;
 $header-height: 90px;
 
@@ -47,13 +49,12 @@ header {
       rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   }
 
-  .login-wrapper {
+  .dropdown-menu-wrapper {
     position: absolute;
     min-width: 320px;
-    background-color: rgb(237, 233, 233);
+    background-color: $menu-color;
     padding: 2rem;
     top: 80px;
-    right: 0;
     border-radius: 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
       rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -62,6 +63,14 @@ header {
       display: flex;
       gap: 1rem;
     }
+  }
+
+  .main-menu {
+    left: 0;
+  }
+
+  .login-menu {
+    right: 0;
   }
 }
 
