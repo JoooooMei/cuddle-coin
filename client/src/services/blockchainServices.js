@@ -29,5 +29,7 @@ export const submitTransaction = async (trx) => {
         body: JSON.stringify(trx),
       }
     );
+
+    console.log('The response: ', response);
   } catch (error) {}
 };

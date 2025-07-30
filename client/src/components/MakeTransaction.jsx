@@ -14,29 +14,31 @@ const MakeTransaction = () => {
 
     console.log('trx: ', trx);
 
-    const transaction = await submitTransaction();
+    const transaction = await submitTransaction(trx);
   };
 
   return (
     <div>
       <form onSubmit={(e) => handleSubmit(e)}>
         <div>
-          <label htmlFor="recipient">recipient</label>
+          <label htmlFor="recipient">Recipient</label>
           <input
             type="text"
             name="recipient"
             value={recipient}
             onChange={(e) => setRecipient(e.target.value)}
+            required
           />
         </div>
 
         <div>
-          <label htmlFor="amount">amount</label>
+          <label htmlFor="amount">Amount</label>
           <input
             type="number"
             name="amount"
             value={amount}
             onChange={(e) => setAmount(e.target.value)}
+            required
           />
         </div>
 

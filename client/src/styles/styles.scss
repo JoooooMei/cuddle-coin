@@ -63,6 +63,19 @@ header {
       display: flex;
       gap: 1rem;
     }
+
+    .login-error {
+      color: red;
+      padding: 1rem;
+      background-color: white;
+      border: 1px solid red;
+    }
+  }
+
+  .logged-in {
+    background-color: green;
+    border-radius: 100px;
+    font-size: 0.8rem;
   }
 
   .main-menu {

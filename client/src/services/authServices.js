@@ -9,11 +9,5 @@ export const loginUser = async (user) => {
     body: JSON.stringify(user),
   });
 
-  if (response.ok) {
-    const result = await response.json();
-
-    return result.data.token;
-  } else {
-    return await response.json();
-  }
+  return await response.json();
 };
