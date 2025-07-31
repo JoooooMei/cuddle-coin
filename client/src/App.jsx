@@ -3,14 +3,17 @@ import './App.css';
 import './styles/styles.css';
 import { getAllUsers } from './services/userServices';
 import { getBlockchain } from './services/blockchainServices';
-import AllUsers from './components/AllUsers';
-import Header from './components/Header';
+import UserAmdin from './components/UserAmdin';
+import Header from './components/header/Header';
+import MakeTransaction from './components/MakeTransaction';
 
 function App() {
   const [newUser, setNewUser] = useState(undefined);
   const [blockchain, setBlockchain] = useState(undefined);
   const [allUsers, setAllUsers] = useState(undefined);
   const [JWT, setJWT] = useState('');
+  const [updateUserList, setUpdateUserlist] = useState(1);
+  const [user, setUser] = useState({});
 
   useEffect(() => {
     const fetcBlockchain = async () => {
@@ -23,20 +26,44 @@ function App() {
   }, []);
 
   useEffect(() => {
+    console.log('Fetching users');
     const fetchUsers = async () => {
-      const users = await getAllUsers();
+      const users = await getAllUsers(JWT);
 
-      setAllUsers(users.data);
+      if (users) setAllUsers(users.data);
     };
 
-    fetchUsers();
-  }, [, newUser]);
+    if (JWT) {
+      fetchUsers();
+    }
+  }, [newUser, updateUserList, JWT]);
+
+  useEffect(() => {
+    console.log('Running setJWT and Storage');
+    const token = localStorage.getItem('jwt-cuddle');
+
+    if (JWT) localStorage.setItem('jwt-cuddle', JWT);
+    if (token) setJWT(token);
+
+    console.log('Token and localStorage set');
+  }, [JWT]);
 
   return (
     <>
-      <Header setNewUser={setNewUser} />
+      <Header
+        setNewUser={setNewUser}
+        setJWT={setJWT}
+        JWT={JWT}
+        setUser={setUser}
+        user={user}
+      />
       <section>
-        <AllUsers allUsers={allUsers} />
+        <MakeTransaction JWT={JWT} />
+        <UserAmdin
+          allUsers={allUsers}
+          setUpdateUserlist={setUpdateUserlist}
+          JWT={JWT}
+        />
       </section>
     </>
   );

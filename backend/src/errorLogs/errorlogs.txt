@@ -4334,3 +4334,1235 @@ Time: 23:31:59
 Success: undefined
 Message: Cannot read properties of null (reading 'role')
 
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-23
+Time: 14:23:20
+Success: undefined
+Message: User validation failed: role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-23
+Time: 14:23:50
+Success: undefined
+Message: User validation failed: role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-30
+Time: 12:23:48
+Success: undefined
+Message: jwt expired
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-30
+Time: 12:23:48
+Success: undefined
+Message: jwt expired
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-30
+Time: 12:24:31
+Success: undefined
+Message: jwt expired
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-30
+Time: 12:24:31
+Success: undefined
+Message: jwt expired
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-30
+Time: 12:25:16
+Success: undefined
+Message: jwt expired
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-30
+Time: 12:25:17
+Success: undefined
+Message: jwt expired
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-30
+Time: 12:25:18
+Success: undefined
+Message: jwt expired
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-30
+Time: 12:25:18
+Success: undefined
+Message: jwt expired
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-30
+Time: 12:25:34
+Success: undefined
+Message: jwt expired
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-30
+Time: 12:25:36
+Success: undefined
+Message: jwt expired
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-30
+Time: 12:25:36
+Success: undefined
+Message: jwt expired
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 12:26:56
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/users/6889f31ea961d00e55eee590
+Date: 2025-07-30
+Time: 12:30:30
+Success: undefined
+Message: jwt expired
+
+
+ERROR LOG
+URL: /api/users/6889f31ea961d00e55eee590
+Date: 2025-07-30
+Time: 12:30:34
+Success: undefined
+Message: jwt expired
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-07-30
+Time: 14:47:11
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-07-30
+Time: 14:55:58
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions/mine
+Date: 2025-07-30
+Time: 14:57:12
+Success: undefined
+Message: jwt expired
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-07-30
+Time: 15:00:30
+Success: undefined
+Message: jwt expired
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 15:01:02
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 15:44:13
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 15:46:16
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 15:47:34
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 15:48:00
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 15:55:11
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 15:55:39
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 15:56:02
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 15:57:22
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 15:57:55
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 15:58:55
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 15:59:43
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 16:00:28
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 16:09:33
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 16:09:36
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 16:12:29
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 16:12:48
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 16:12:59
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 16:13:13
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 16:14:24
+Success: undefined
+Message: Cannot read properties of undefined (reading 'toString')
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 16:15:10
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 16:15:47
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 16:16:08
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:16:40
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:16:48
+Success: undefined
+Message: User validation failed: role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:17:01
+Success: undefined
+Message: Username is already taken. Choose another one
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:17:05
+Success: undefined
+Message: Email is already registered. Choose another one
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 16:17:39
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 16:19:02
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 16:19:06
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 16:19:09
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 16:19:13
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 16:19:18
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 16:19:47
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 16:19:51
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 16:19:55
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 16:20:05
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:25:59
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:26:33
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:26:59
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:27:12
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:27:31
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:28:39
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:28:52
+Success: undefined
+Message: User validation failed: role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:28:57
+Success: undefined
+Message: Username is already taken. Choose another one
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:29:05
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:29:11
+Success: undefined
+Message: Email is already registered. Choose another one
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:29:17
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:29:26
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:29:35
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:29:41
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:29:46
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:29:51
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:30:20
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:31:12
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:31:18
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:31:23
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:31:48
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:31:53
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:31:58
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:32:03
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:32:11
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:32:30
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:32:35
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:32:40
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:32:46
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:32:59
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:33:15
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:33:23
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:33:28
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:37:24
+Success: undefined
+Message: User validation failed: role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:37:33
+Success: undefined
+Message: User validation failed: role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:44:15
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:44:28
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:45:07
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:45:23
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:45:44
+Success: undefined
+Message: User validation failed: role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:45:54
+Success: undefined
+Message: User validation failed: email: Email address is not valid: , role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:45:59
+Success: undefined
+Message: User validation failed: email: Email address is not valid: , role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:46:19
+Success: undefined
+Message: User validation failed: email: Email address is not valid: , role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:46:28
+Success: undefined
+Message: User validation failed: email: Email address is not valid: , password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:46:36
+Success: undefined
+Message: User validation failed: email: Email address is not valid: , password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:48:20
+Success: undefined
+Message: User validation failed: email: Email address is not valid: , password: Password is to short. Use at least 8 characters:, role: At least one role is required:
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:48:33
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters:, role: At least one role is required:
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:51:20
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:51:25
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:51:45
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-30
+Time: 16:51:54
+Success: undefined
+Message: User validation failed: password: Password is to short. Use at least 8 characters, role: At least one role is required
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-07-30
+Time: 18:45:11
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/users/6876528bc16b16b098ed5598
+Date: 2025-07-30
+Time: 19:39:00
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users/68800283b02d08e959e9fa5e
+Date: 2025-07-30
+Time: 19:39:09
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users/[object%20Object]
+Date: 2025-07-30
+Time: 19:56:09
+Success: undefined
+Message: jwt malformed
+
+
+ERROR LOG
+URL: /api/users/[object%20Object]
+Date: 2025-07-30
+Time: 19:56:09
+Success: undefined
+Message: jwt malformed
+
+
+ERROR LOG
+URL: /api/users/[object%20Object]
+Date: 2025-07-30
+Time: 19:57:55
+Success: undefined
+Message: jwt malformed
+
+
+ERROR LOG
+URL: /api/users/[object%20Object]
+Date: 2025-07-30
+Time: 19:57:55
+Success: undefined
+Message: jwt malformed
+
+
+ERROR LOG
+URL: /api/users/[object%20Object]
+Date: 2025-07-30
+Time: 19:58:34
+Success: undefined
+Message: jwt malformed
+
+
+ERROR LOG
+URL: /api/users/[object%20Object]
+Date: 2025-07-30
+Time: 19:58:34
+Success: undefined
+Message: jwt malformed
+
+
+ERROR LOG
+URL: /api/users/[object%20Object]
+Date: 2025-07-30
+Time: 19:58:49
+Success: undefined
+Message: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "User"
+
+
+ERROR LOG
+URL: /api/users/[object%20Object]
+Date: 2025-07-30
+Time: 19:58:49
+Success: undefined
+Message: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "User"
+
+
+ERROR LOG
+URL: /api/users/[object%20Object]
+Date: 2025-07-30
+Time: 19:59:24
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users/[object%20Object]
+Date: 2025-07-30
+Time: 19:59:24
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users/68800283b02d08e959e9fa5e
+Date: 2025-07-30
+Time: 20:01:37
+Success: undefined
+Message: jwt malformed
+
+
+ERROR LOG
+URL: /api/users/68800283b02d08e959e9fa5e
+Date: 2025-07-30
+Time: 20:01:37
+Success: undefined
+Message: jwt malformed
+
+
+ERROR LOG
+URL: /api/users/68800283b02d08e959e9fa5e
+Date: 2025-07-30
+Time: 20:01:57
+Success: undefined
+Message: jwt malformed
+
+
+ERROR LOG
+URL: /api/users/68800283b02d08e959e9fa5e
+Date: 2025-07-30
+Time: 20:01:57
+Success: undefined
+Message: jwt malformed
+
+
+ERROR LOG
+URL: /api/users/68800283b02d08e959e9fa5e
+Date: 2025-07-30
+Time: 20:02:39
+Success: undefined
+Message: jwt malformed
+
+
+ERROR LOG
+URL: /api/users/68800283b02d08e959e9fa5e
+Date: 2025-07-30
+Time: 20:02:39
+Success: undefined
+Message: jwt malformed
+
+
+ERROR LOG
+URL: /api/users/68800283b02d08e959e9fa5e
+Date: 2025-07-30
+Time: 20:03:02
+Success: undefined
+Message: jwt malformed
+
+
+ERROR LOG
+URL: /api/users/68800283b02d08e959e9fa5e
+Date: 2025-07-30
+Time: 20:03:02
+Success: undefined
+Message: jwt malformed
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-31
+Time: 12:03:09
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-31
+Time: 12:03:09
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-31
+Time: 12:03:56
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-31
+Time: 12:03:56
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-31
+Time: 12:04:14
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-31
+Time: 12:04:14
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-31
+Time: 12:04:29
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-31
+Time: 12:04:29
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-31
+Time: 12:04:32
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-31
+Time: 12:04:32
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-31
+Time: 12:04:42
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-31
+Time: 12:04:42
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-31
+Time: 12:06:32
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-31
+Time: 12:06:32
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-31
+Time: 12:07:22
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-31
+Time: 12:07:34
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-31
+Time: 12:12:26
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-31
+Time: 12:12:26
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-31
+Time: 12:12:35
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-31
+Time: 12:12:35
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-31
+Time: 12:13:05
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-31
+Time: 12:13:06
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-31
+Time: 12:13:06
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-31
+Time: 12:13:18
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-31
+Time: 12:13:18
+Success: undefined
+Message: You need to be logged in
+
