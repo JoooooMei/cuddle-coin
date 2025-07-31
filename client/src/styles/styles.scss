@@ -3,7 +3,7 @@ $theme-color: #f3efec;
 $contrast-color: rgb(137, 193, 220);
 $menu-color: rgb(237, 233, 233);
 $max-width: 1440px;
-$header-height: 90px;
+$header-height: 110px;
 
 *,
 *::before,
@@ -16,11 +16,21 @@ body {
   padding-inline: 4rem;
 }
 
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
 section {
   max-width: $max-width;
   margin: 4rem auto;
   min-height: 100vh;
   padding-inline: 1rem;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
 
 header {
@@ -43,6 +53,7 @@ header {
     border-radius: 10px;
     background: white;
     flex: 1;
+    min-height: 80px;
     max-width: 1440px;
     justify-content: space-between;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
@@ -70,12 +81,26 @@ header {
       background-color: white;
       border: 1px solid red;
     }
+
+    li {
+      span {
+        font-size: 0.7rem;
+      }
+    }
   }
 
   .logged-in {
     background-color: green;
     border-radius: 100px;
     font-size: 0.8rem;
+
+    &:hover {
+      border-color: green;
+    }
+
+    &:focus {
+      outline: none;
+    }
   }
 
   .main-menu {

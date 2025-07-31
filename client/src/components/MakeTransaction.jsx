@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { submitTransaction } from '../services/blockchainServices';
 
-const MakeTransaction = () => {
+const MakeTransaction = ({ JWT }) => {
   const [recipient, setRecipient] = useState('');
   const [amount, setAmount] = useState('');
 
@@ -14,7 +14,7 @@ const MakeTransaction = () => {
 
     console.log('trx: ', trx);
 
-    const transaction = await submitTransaction(trx);
+    const transaction = await submitTransaction(trx, JWT);
   };
 
   return (
