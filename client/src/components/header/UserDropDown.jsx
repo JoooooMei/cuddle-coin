@@ -30,11 +30,13 @@ const UserDropDown = ({ JWT, setJWT, setUser, user }) => {
     <div className="dropdown-menu-wrapper login-menu">
       <div>
         <ul className="logged-in-user">
-          <b>Logged in as</b>
-          <li>{user.userName}</li>
           <li>
-            <span>{user._id}</span>
+            <span>
+              <b>id: </b>
+              {user._id}
+            </span>
           </li>
+          <li className="user-name">{user.userName}</li>
         </ul>
         <ul>
           <b>Roles</b>

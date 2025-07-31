@@ -5782,3 +5782,11 @@ Time: 13:57:42
 Success: undefined
 Message: Username is already taken. Choose another one
 
+
+ERROR LOG
+URL: /api/users
+Date: 2025-08-01
+Time: 00:22:49
+Success: undefined
+Message: Cannot read properties of null (reading 'role')
+

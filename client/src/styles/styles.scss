@@ -128,6 +128,10 @@ header {
       border: 1px solid red;
     }
 
+    ul {
+      margin-top: 0;
+    }
+
     li {
       span {
         font-size: 0.7rem;
@@ -174,6 +178,13 @@ h4,
 p {
   padding-top: 0;
   margin-top: 0;
+}
+
+h6 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+  border-bottom: 1px solid black;
 }
 
 form {
@@ -311,4 +322,11 @@ form {
   li {
     border-bottom: 1px solid grey;
   }
+}
+
+.user-name {
+  font-size: 1.2rem;
+  width: fit-content;
+  font-weight: 600;
+  margin-top: -6px;
 }

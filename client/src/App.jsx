@@ -6,6 +6,7 @@ import { getBlockchain } from './services/blockchainServices';
 import UserAmdin from './components/UserAmdin';
 import Header from './components/header/Header';
 import MakeTransaction from './components/MakeTransaction';
+import Mine from './components/Mine';
 
 function App() {
   const [newUser, setNewUser] = useState(undefined);
@@ -62,8 +63,7 @@ function App() {
       <section>
         {mainMenu === 'home' && <div>Im home</div>}
         {mainMenu === 'transaction' && <MakeTransaction JWT={JWT} />}
-        {mainMenu === 'mine' && <div>Lets mine</div>}
-
+        {mainMenu === 'mine' && <Mine JWT={JWT} />}
         {mainMenu === 'admin' && (
           <UserAmdin
             allUsers={allUsers}

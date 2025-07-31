@@ -15,6 +15,26 @@ export const getBlockchain = async () => {
   } catch (error) {}
 };
 
+export const getAllTransactions = async (jwt) => {
+  try {
+    const response = await fetch(
+      'http://localhost:3000/api/wallet/transactions',
+      {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+          authorization: `bearer ${jwt}`,
+        },
+      }
+    );
+
+    if (response.ok) {
+      const result = await response.json();
+      return result;
+    }
+  } catch (error) {}
+};
+
 export const submitTransaction = async (trx, jwt) => {
   try {
     const response = await fetch(
@@ -26,6 +46,27 @@ export const submitTransaction = async (trx, jwt) => {
           authorization: `bearer ${jwt}`,
         },
         body: JSON.stringify(trx),
+      }
+    );
+
+    if (response.ok) {
+      const result = await response.json();
+      return result;
+    }
+  } catch (error) {}
+};
+
+export const mine = async (jwt) => {
+  console.log('Got in!!!!');
+  try {
+    const response = await fetch(
+      'http://localhost:3000/api/wallet/transactions/mine',
+      {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+          authorization: `bearer ${jwt}`,
+        },
       }
     );
 
