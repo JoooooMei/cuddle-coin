@@ -1,9 +1,9 @@
 // $theme-color: rgb(252, 198, 166);
 $theme-color: #f3efec;
 $contrast-color: rgb(137, 193, 220);
-$menu-color: rgb(237, 233, 233);
+$menu-color: rgb(236 209 209);
 $max-width: 1440px;
-$header-height: 110px;
+$header-height: 120px;
 
 *,
 *::before,
@@ -14,6 +14,9 @@ $header-height: 110px;
 body {
   background: $theme-color;
   padding-inline: 4rem;
+  background: #d9a7c7;
+  background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);
+  background: linear-gradient(to right, #fffcdc, #d9a7c7);
 }
 
 ul {
@@ -24,19 +27,28 @@ ul {
 
 section {
   max-width: $max-width;
-  margin: 4rem auto;
-  min-height: 100vh;
-  padding-inline: 1rem;
+  margin: 0 auto;
+  min-height: calc(100vh - $header-height);
+  padding: 4rem 1rem;
 }
 
 .capitalize {
   text-transform: capitalize;
 }
 
+form input {
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+label {
+  font-weight: 600;
+}
+
 header {
   position: sticky;
   z-index: 1000;
-  background: rgba($theme-color, 0.8);
+
   backdrop-filter: blur(8px);
   top: 0;
   display: flex;
@@ -49,15 +61,37 @@ header {
     position: relative;
     display: flex;
     flex: 1;
-    padding: 1rem;
+    padding: 1rem 2rem;
     border-radius: 10px;
     background: white;
     flex: 1;
-    min-height: 80px;
+    min-height: 112px;
     max-width: 1440px;
     justify-content: space-between;
+    align-items: center;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
       rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+    .nav-menu {
+      display: flex;
+      gap: 2rem;
+
+      .menu-item {
+        background-color: transparent;
+        border: transparent;
+        color: rgb(66, 66, 66);
+        padding: 0;
+        font-weight: 600;
+
+        &:hover {
+          color: black;
+        }
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
   }
 
   .dropdown-menu-wrapper {
@@ -65,10 +99,22 @@ header {
     min-width: 320px;
     background-color: $menu-color;
     padding: 2rem;
-    top: 80px;
+    top: 125px;
     border-radius: 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
       rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    &::before {
+      content: '';
+      position: absolute;
+      display: block;
+      width: 0px;
+      right: 25px;
+      top: 5px;
+      border: 23px solid rgba(0, 0, 0, 0);
+      border-top: 0;
+      border-bottom: 25px solid $menu-color;
+      transform: translate(-50%, calc(-100% - 5px));
+    }
 
     .select-login-type {
       display: flex;
@@ -90,16 +136,21 @@ header {
   }
 
   .logged-in {
-    background-color: green;
+    background-color: #daa9c8;
     border-radius: 100px;
     font-size: 0.8rem;
+    height: 80px;
+    width: 80px;
+    color: black;
+    font-weight: 600;
+    outline: 3px solid #b16495;
 
     &:hover {
-      border-color: green;
+      border-color: rgb(253, 0, 220);
     }
 
     &:focus {
-      outline: none;
+      outline: 3px solid #b16495;
     }
   }
 
@@ -156,9 +207,9 @@ form {
   }
 
   .roles {
-    margin-top: 2rem;
     padding: 2rem;
-    border: 1px solid #e29060;
+    border-radius: 10px;
+    border: 2px dashed #00000045;
 
     input {
       height: 20px;
@@ -167,7 +218,7 @@ form {
 }
 
 .alert {
-  border: 1px solid red !important;
+  border: 2px solid red !important;
 }
 
 .submit-wrapper {
@@ -178,14 +229,13 @@ form {
   position: absolute;
   background-color: white;
   font-weight: 600;
-
   font-size: 0.9rem;
   line-height: 1;
   padding: 1rem;
   position: absolute;
   border-radius: 8px;
   min-width: 200px;
-  top: -50px;
+  top: -40px;
   left: 50%;
   transform: translate(-50%, -50%);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
@@ -241,5 +291,24 @@ form {
     padding: 4px;
     background: red;
     color: white;
+  }
+}
+
+.transactions-pending {
+  min-width: 600px;
+  background-color: white;
+  border-radius: 10px;
+  margin: auto;
+  padding: 2rem;
+
+  .transaction-list {
+    border-top: 2px dashed grey;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: #f4f4f4;
+  }
+
+  li {
+    border-bottom: 1px solid grey;
   }
 }

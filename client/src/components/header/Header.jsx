@@ -3,9 +3,9 @@ import RegisterNewUser from './loginMenu/RegisterNewUser';
 import LogIn from './loginMenu/LogIn';
 import UserDropDown from './UserDropDown';
 
-const Header = ({ setNewUser, setJWT, JWT, setUser, user }) => {
+const Header = ({ setNewUser, setJWT, JWT, setUser, user, setMainMenu }) => {
   const [loginMenu, setLoginMenu] = useState(false);
-  const [mainMenu, setMainMenu] = useState(false);
+
   const [loginType, setLoginType] = useState(undefined);
   const [showUser, setShowUser] = useState(false);
 
@@ -17,12 +17,44 @@ const Header = ({ setNewUser, setJWT, JWT, setUser, user }) => {
   return (
     <header>
       <div className="menu-wrapper">
-        <button onClick={() => setMainMenu(!mainMenu)}>Hamburger menu</button>
-        {mainMenu && (
-          <>
-            <div className="dropdown-menu-wrapper main-menu"></div>
-          </>
-        )}
+        <ul className="nav-menu">
+          <li>
+            <button
+              onClick={() => {
+                setMainMenu('home');
+              }}
+              className="menu-item">
+              Home
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => {
+                setMainMenu('transaction');
+              }}
+              className="menu-item">
+              Make transaction
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => {
+                setMainMenu('mine');
+              }}
+              className="menu-item">
+              Mine
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => {
+                setMainMenu('admin');
+              }}
+              className="menu-item">
+              Admin
+            </button>
+          </li>
+        </ul>
 
         {JWT ? (
           <>

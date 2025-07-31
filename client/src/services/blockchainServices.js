@@ -29,6 +29,9 @@ export const submitTransaction = async (trx, jwt) => {
       }
     );
 
-    console.log('The response: ', response);
+    if (response.ok) {
+      const result = await response.json();
+      return result;
+    }
   } catch (error) {}
 };

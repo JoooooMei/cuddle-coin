@@ -65,6 +65,7 @@ const RegisterNewUser = ({ setNewUser, setJWT }) => {
 
     if (login.success) {
       setJWT(login.data.token);
+      window.location.reload();
     }
   };
 

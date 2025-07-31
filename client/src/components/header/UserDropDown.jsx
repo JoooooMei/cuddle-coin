@@ -23,6 +23,7 @@ const UserDropDown = ({ JWT, setJWT, setUser, user }) => {
   const handleLogoutButton = () => {
     setJWT('');
     localStorage.removeItem('jwt-cuddle');
+    window.location.reload();
   };
 
   return (

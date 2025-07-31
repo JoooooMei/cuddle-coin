@@ -19,6 +19,7 @@ const LogIn = ({ setJWT, setLoginMenu }) => {
     if (login.success) {
       setJWT(login.data.token);
       setLoginMenu(false);
+      window.location.reload();
     } else {
       failedLogin(login.message);
     }

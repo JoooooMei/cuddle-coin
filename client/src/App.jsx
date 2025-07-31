@@ -14,6 +14,7 @@ function App() {
   const [JWT, setJWT] = useState('');
   const [updateUserList, setUpdateUserlist] = useState(1);
   const [user, setUser] = useState({});
+  const [mainMenu, setMainMenu] = useState('home');
 
   useEffect(() => {
     const fetcBlockchain = async () => {
@@ -56,14 +57,20 @@ function App() {
         JWT={JWT}
         setUser={setUser}
         user={user}
+        setMainMenu={setMainMenu}
       />
       <section>
-        <MakeTransaction JWT={JWT} />
-        <UserAmdin
-          allUsers={allUsers}
-          setUpdateUserlist={setUpdateUserlist}
-          JWT={JWT}
-        />
+        {mainMenu === 'home' && <div>Im home</div>}
+        {mainMenu === 'transaction' && <MakeTransaction JWT={JWT} />}
+        {mainMenu === 'mine' && <div>Lets mine</div>}
+
+        {mainMenu === 'admin' && (
+          <UserAmdin
+            allUsers={allUsers}
+            setUpdateUserlist={setUpdateUserlist}
+            JWT={JWT}
+          />
+        )}
       </section>
     </>
   );

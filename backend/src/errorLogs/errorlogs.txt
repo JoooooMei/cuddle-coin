@@ -5566,3 +5566,219 @@ Time: 12:13:18
 Success: undefined
 Message: You need to be logged in
 
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-31
+Time: 13:51:11
+Success: undefined
+Message: User validation failed: role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-31
+Time: 13:51:27
+Success: undefined
+Message: User validation failed: role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-31
+Time: 13:51:34
+Success: undefined
+Message: User validation failed: role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-31
+Time: 13:51:39
+Success: undefined
+Message: User validation failed: role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-31
+Time: 13:51:53
+Success: undefined
+Message: User validation failed: role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-31
+Time: 13:51:58
+Success: undefined
+Message: User validation failed: role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-31
+Time: 13:52:34
+Success: undefined
+Message: User validation failed: role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-31
+Time: 13:52:40
+Success: undefined
+Message: User validation failed: role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-31
+Time: 13:52:51
+Success: undefined
+Message: User validation failed: role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-31
+Time: 13:53:00
+Success: undefined
+Message: User validation failed: role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-31
+Time: 13:53:02
+Success: undefined
+Message: User validation failed: role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-31
+Time: 13:53:07
+Success: undefined
+Message: User validation failed: role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-31
+Time: 13:53:11
+Success: undefined
+Message: User validation failed: role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-31
+Time: 13:53:20
+Success: undefined
+Message: User validation failed: role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-31
+Time: 13:53:25
+Success: undefined
+Message: User validation failed: role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-31
+Time: 13:53:30
+Success: undefined
+Message: User validation failed: role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-31
+Time: 13:53:44
+Success: undefined
+Message: User validation failed: role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-31
+Time: 13:53:51
+Success: undefined
+Message: User validation failed: role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-31
+Time: 13:54:03
+Success: undefined
+Message: Username is already taken. Choose another one
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-31
+Time: 13:54:09
+Success: undefined
+Message: Username is already taken. Choose another one
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-31
+Time: 13:55:57
+Success: undefined
+Message: User validation failed: role: At least one role is required
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-31
+Time: 13:56:00
+Success: undefined
+Message: Username is already taken. Choose another one
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-31
+Time: 13:56:04
+Success: undefined
+Message: Email is already registered. Choose another one
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-31
+Time: 13:56:05
+Success: undefined
+Message: Email is already registered. Choose another one
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-31
+Time: 13:56:09
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-07-31
+Time: 13:56:45
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-07-31
+Time: 13:57:42
+Success: undefined
+Message: Username is already taken. Choose another one
+
