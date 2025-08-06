@@ -1,5 +1,4 @@
 import { transactionPool, wallet, server, blockChain } from '../server.mjs';
-import Miner from '../models/miner/Miner.mjs';
 import Wallet from '../models/wallet/Wallet.mjs';
 import { catchErrorAsync } from '../utilities/catchErrorAsync.mjs';
 import BlockchainRepository from '../repository/BlockchainRepository.mjs';
