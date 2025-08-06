@@ -29,8 +29,9 @@ export const getAllTransactions = async (jwt) => {
     );
 
     if (response.ok) {
-      const result = await response.json();
-      return result;
+      return await response.json();
+    } else {
+      return await response.json();
     }
   } catch (error) {}
 };
@@ -57,7 +58,6 @@ export const submitTransaction = async (trx, jwt) => {
 };
 
 export const mine = async (jwt) => {
-  console.log('Got in!!!!');
   try {
     const response = await fetch(
       'http://localhost:3000/api/wallet/transactions/mine',
@@ -69,6 +69,28 @@ export const mine = async (jwt) => {
         },
       }
     );
+
+    if (response.ok) {
+      const result = await response.json();
+      return result;
+    }
+  } catch (error) {}
+};
+
+export const getBalance = async (jwt) => {
+  console.log('Got in!!!!');
+
+  console.log('JWT: ', jwt);
+  try {
+    const response = await fetch('http://localhost:3000/api/wallet/info', {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+        authorization: `bearer ${jwt}`,
+      },
+    });
+
+    console.log('response', response);
 
     if (response.ok) {
       const result = await response.json();

@@ -1,11 +1,22 @@
-import React, { useState } from 'react';
-import { submitTransaction } from '../services/blockchainServices';
+import React, { useEffect, useState } from 'react';
+import { getBalance, submitTransaction } from '../services/blockchainServices';
 
-const MakeTransaction = ({ JWT }) => {
+const MakeTransaction = ({ JWT, trxPending, setTrxPending }) => {
   const [recipient, setRecipient] = useState('');
   const [amount, setAmount] = useState('');
   const [trxSubmitted, setTrxSubmitted] = useState(false);
-  const [trxPending, setTrxPending] = useState({});
+  const [balance, setBalance] = useState('');
+
+  useEffect(() => {
+    const getWalletBalance = async () => {
+      console.log('Looking for balance');
+      const walletBalance = await getBalance(JWT);
+
+      setBalance(walletBalance.data.balance);
+    };
+
+    getWalletBalance();
+  }, [trxSubmitted]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -29,32 +40,23 @@ const MakeTransaction = ({ JWT }) => {
   };
 
   return (
-    <>
-      {trxSubmitted ? (
-        <div className="transactions-pending">
-          <h2>Transaction Submitted</h2>
-          <div className="transaction-list">
-            <h4>Transaction(s) pending in mempool</h4>
-            <ul>
-              {Object.entries(trxPending.outputMap)
-                .filter(([recipient]) => recipient !== trxPending.input.address)
-                .map(([recipient, amount], index) => (
-                  <li key={index}>
-                    {recipient}: {amount}
-                  </li>
-                ))}
-            </ul>
+    <div className="transaction-wrapper">
+      <div className="wallet">
+        {trxSubmitted ? (
+          <div>
+            <div>
+              <h3>Transaction submitted!</h3>
+            </div>
+            <button
+              onClick={() => {
+                setTrxSubmitted(false);
+              }}>
+              New transaction
+            </button>
           </div>
-          <button
-            onClick={() => {
-              setTrxSubmitted(false);
-            }}>
-            New transaction
-          </button>
-        </div>
-      ) : (
-        <div>
+        ) : (
           <form onSubmit={(e) => handleSubmit(e)}>
+            <h4>Balance: {balance}</h4>
             <div>
               <label htmlFor="recipient">Recipient</label>
               <input
@@ -79,9 +81,34 @@ const MakeTransaction = ({ JWT }) => {
 
             <button type="submit">Submit transaction</button>
           </form>
+        )}
+      </div>
+
+      <div className="transactions-pending">
+        <h2>Transaction Submitted</h2>
+        {console.log('trxPending:', trxPending)}
+        <div className="transaction-list">
+          {trxPending.outputMap ? (
+            <>
+              <h4>Transaction(s) in mempool</h4>
+              <ul>
+                {Object.entries(trxPending.outputMap)
+                  .filter(
+                    ([recipient]) => recipient !== trxPending.input.address
+                  )
+                  .map(([recipient, amount], index) => (
+                    <li key={index}>
+                      {recipient}: {amount}
+                    </li>
+                  ))}
+              </ul>
+            </>
+          ) : (
+            <h4>No transactions submitted</h4>
+          )}
         </div>
-      )}
-    </>
+      </div>
+    </div>
   );
 };
 

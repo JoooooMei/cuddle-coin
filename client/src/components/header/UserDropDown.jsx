@@ -1,25 +1,4 @@
-import React, { useEffect, useState } from 'react';
-import { jwtDecode } from 'jwt-decode';
-import { getUserById } from '../../services/userServices';
-
-const UserDropDown = ({ JWT, setJWT, setUser, user }) => {
-  useEffect(() => {
-    if (!user._id) {
-      const decode = jwtDecode(JWT);
-
-      console.log('runnung get user data');
-      const getUser = async (id) => {
-        const userInfo = await getUserById(id, JWT);
-
-        console.log(userInfo);
-
-        setUser(userInfo.data);
-      };
-
-      getUser(decode.id);
-    }
-  }, [JWT]);
-
+const UserDropDown = ({ setJWT, user }) => {
   const handleLogoutButton = () => {
     setJWT('');
     localStorage.removeItem('jwt-cuddle');

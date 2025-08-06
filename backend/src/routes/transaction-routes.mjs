@@ -12,7 +12,7 @@ const router = Router();
 router
   .route('/transactions')
   .post(protect, addTransaction)
-  .get(getAllTransactions);
+  .get(protect, authorize('miner'), getAllTransactions);
 
 router
   .route('/transactions/mine')

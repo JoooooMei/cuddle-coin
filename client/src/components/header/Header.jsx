@@ -63,14 +63,7 @@ const Header = ({ setNewUser, setJWT, JWT, setUser, user, setMainMenu }) => {
               className="logged-in">
               Logged<br></br>in
             </button>
-            {showUser && (
-              <UserDropDown
-                JWT={JWT}
-                setJWT={setJWT}
-                setUser={setUser}
-                user={user}
-              />
-            )}
+            {showUser && <UserDropDown setJWT={setJWT} user={user} />}
           </>
         ) : (
           <button onClick={handleLoginButton}>Login</button>

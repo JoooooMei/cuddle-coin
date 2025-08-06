@@ -306,10 +306,9 @@ form {
 }
 
 .transactions-pending {
-  min-width: 600px;
   background-color: white;
   border-radius: 10px;
-  margin: auto;
+  margin: 0 auto;
   padding: 2rem;
 
   .transaction-list {
@@ -329,4 +328,23 @@ form {
   width: fit-content;
   font-weight: 600;
   margin-top: -6px;
+}
+
+.wallet {
+  flex: 1;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  transform: scale(1.05);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.transaction-wrapper {
+  display: flex;
+  gap: 4rem;
+
+  div {
+    flex: 1;
+  }
 }
