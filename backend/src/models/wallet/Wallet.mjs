@@ -11,28 +11,21 @@ export default class Wallet {
   }
 
   static calculateBalance({ chain, address }) {
-    let total = 0;
-    let hasMadeTransaction = false;
+    let balance = INITIAL_BALANCE;
 
-    for (let i = chain.length - 1; i > 0; i--) {
+    for (let i = 1; i < chain.length; i++) {
       const block = chain[i];
-
       for (let transaction of block.data) {
         if (transaction.input.address === address) {
-          hasMadeTransaction = true;
+          balance -= transaction.input.amount;
         }
-
-        const amount = transaction.outputMap[address];
-
-        if (amount) {
-          total += amount;
+        if (transaction.outputMap[address] !== undefined) {
+          balance += transaction.outputMap[address];
         }
       }
-
-      if (hasMadeTransaction) break;
     }
 
-    return hasMadeTransaction ? total : INITIAL_BALANCE + total;
+    return balance;
   }
 
   sign(data) {
