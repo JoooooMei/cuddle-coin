@@ -8,6 +8,7 @@ import Header from './components/header/Header';
 import MakeTransaction from './components/MakeTransaction';
 import Mine from './components/Mine';
 import { jwtDecode } from 'jwt-decode';
+import Home from './components/Home';
 
 function App() {
   const [newUser, setNewUser] = useState(undefined);
@@ -18,6 +19,7 @@ function App() {
   const [user, setUser] = useState({});
   const [mainMenu, setMainMenu] = useState('home');
   const [trxPending, setTrxPending] = useState({});
+  const [mineCount, setMineCount] = useState(0);
 
   useEffect(() => {
     const fetcBlockchain = async () => {
@@ -27,10 +29,9 @@ function App() {
     };
 
     fetcBlockchain();
-  }, []);
+  }, [mineCount]);
 
   useEffect(() => {
-    console.log('Fetching users');
     const fetchUsers = async () => {
       const users = await getAllUsers(JWT);
 
@@ -43,25 +44,18 @@ function App() {
   }, [newUser, updateUserList, JWT]);
 
   useEffect(() => {
-    console.log('Running setJWT and Storage');
     const token = localStorage.getItem('jwt-cuddle');
 
     if (JWT) localStorage.setItem('jwt-cuddle', JWT);
     if (token) setJWT(token);
-
-    console.log('Token and localStorage set');
   }, [JWT]);
 
   useEffect(() => {
     if (JWT) {
-      console.log('JWT: ', JWT);
       const decode = jwtDecode(JWT);
 
-      console.log('runnung get user data');
       const getUser = async (id) => {
         const userInfo = await getUserById(id, JWT);
-
-        console.log(userInfo);
 
         setUser(userInfo.data);
       };
@@ -72,6 +66,7 @@ function App() {
 
   return (
     <>
+      {console.log('user:', user)}
       <Header
         setNewUser={setNewUser}
         setJWT={setJWT}
@@ -81,16 +76,23 @@ function App() {
         setMainMenu={setMainMenu}
       />
       <section>
-        {mainMenu === 'home' && <div>Im home</div>}
+        {mainMenu === 'home' && <Home blockchain={blockchain} />}
         {mainMenu === 'transaction' && (
           <MakeTransaction
             JWT={JWT}
             trxPending={trxPending}
             setTrxPending={setTrxPending}
+            user={user}
           />
         )}
         {mainMenu === 'mine' && (
-          <Mine JWT={JWT} setTrxPending={setTrxPending} />
+          <Mine
+            JWT={JWT}
+            setTrxPending={setTrxPending}
+            mineCount={mineCount}
+            setMineCount={setMineCount}
+            blockchain={blockchain}
+          />
         )}
         {mainMenu === 'admin' && (
           <UserAmdin

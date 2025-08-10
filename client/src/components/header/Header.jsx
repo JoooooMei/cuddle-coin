@@ -17,51 +17,56 @@ const Header = ({ setNewUser, setJWT, JWT, setUser, user, setMainMenu }) => {
   return (
     <header>
       <div className="menu-wrapper">
-        <ul className="nav-menu">
-          <li>
-            <button
-              onClick={() => {
-                setMainMenu('home');
-              }}
-              className="menu-item">
-              Home
-            </button>
-          </li>
-          <li>
-            <button
-              onClick={() => {
-                setMainMenu('transaction');
-              }}
-              className="menu-item">
-              Make transaction
-            </button>
-          </li>
-          <li>
-            <button
-              onClick={() => {
-                setMainMenu('mine');
-              }}
-              className="menu-item">
-              Mine
-            </button>
-          </li>
-          <li>
-            <button
-              onClick={() => {
-                setMainMenu('admin');
-              }}
-              className="menu-item">
-              Admin
-            </button>
-          </li>
-        </ul>
+        <div className="menu">
+          <div className="logo-wrapper">
+            <img src="./src/assets/cuddle-coin-logo.png" alt="" />
+          </div>
+          <ul className="nav-menu">
+            <li>
+              <button
+                onClick={() => {
+                  setMainMenu('home');
+                }}
+                className="menu-item">
+                Home
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={() => {
+                  setMainMenu('transaction');
+                }}
+                className="menu-item">
+                Make transaction
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={() => {
+                  setMainMenu('mine');
+                }}
+                className="menu-item">
+                Mine
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={() => {
+                  setMainMenu('admin');
+                }}
+                className="menu-item">
+                Admin
+              </button>
+            </li>
+          </ul>
+        </div>
 
         {JWT ? (
           <>
             <button
               onClick={() => setShowUser(!showUser)}
               className="logged-in">
-              Logged<br></br>in
+              You!
             </button>
             {showUser && <UserDropDown setJWT={setJWT} user={user} />}
           </>

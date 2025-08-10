@@ -37,8 +37,7 @@ export const deleteUserById = async (user, jwt) => {
   const response = await fetch(`${URL}/${user}`, {
     method: 'DELETE',
     headers: {
-      authorization:
-        'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ODAwMjgzYjAyZDA4ZTk1OWU5ZmE1ZSIsInJvbGUiOlsidXNlciIsImFkbWluIiwibWluZXIiXSwiaWF0IjoxNzUzODcxNTQ2LCJleHAiOjE3NTQ0NzYzNDZ9.LkZ3jokrA-dnqLHeN21IzLQ1I4VTVcUMT2TGt-DdxtU',
+      authorization: `bearer ${jwt}`,
     },
   });
 
@@ -48,7 +47,7 @@ export const deleteUserById = async (user, jwt) => {
 };
 
 export const getUserById = async (id, jwt) => {
-  console.log(jwt);
+  console.log('jwt; ', jwt);
   const response = await fetch(`${URL}/${id}`, {
     method: 'GET',
     headers: {
@@ -61,7 +60,3 @@ export const getUserById = async (id, jwt) => {
 
   return result;
 };
-
-/* expired token 
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ODAwMjgzYjAyZDA4ZTk1OWU5ZmE1ZSIsInJvbGUiOlsidXNlciIsImFkbWluIiwibWluZXIiXSwiaWF0IjoxNzUzMjIwMDA5LCJleHAiOjE3NTM4MjQ4MDl9.jAq_okOq-b4HT1qS0kWM4A-ub_Z0r2zN1-016r90htc
-*/

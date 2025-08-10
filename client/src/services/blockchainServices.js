@@ -37,6 +37,7 @@ export const getAllTransactions = async (jwt) => {
 };
 
 export const submitTransaction = async (trx, jwt) => {
+  console.log('Got in');
   try {
     const response = await fetch(
       'http://localhost:3000/api/wallet/transactions',
@@ -50,11 +51,18 @@ export const submitTransaction = async (trx, jwt) => {
       }
     );
 
+    console.log('response: ', response);
+
     if (response.ok) {
       const result = await response.json();
+      console.log('result: ', result);
       return result;
+    } else {
+      return response;
     }
-  } catch (error) {}
+  } catch (error) {
+    console.error('Något gick fel:', response.status, await response.text());
+  }
 };
 
 export const mine = async (jwt) => {
@@ -78,9 +86,6 @@ export const mine = async (jwt) => {
 };
 
 export const getBalance = async (jwt) => {
-  console.log('Got in!!!!');
-
-  console.log('JWT: ', jwt);
   try {
     const response = await fetch('http://localhost:3000/api/wallet/info', {
       method: 'GET',
@@ -89,8 +94,6 @@ export const getBalance = async (jwt) => {
         authorization: `bearer ${jwt}`,
       },
     });
-
-    console.log('response', response);
 
     if (response.ok) {
       const result = await response.json();

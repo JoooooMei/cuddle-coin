@@ -1,9 +1,10 @@
 import React from 'react';
 import { deleteUserById } from '../services/userServices';
+import Unauthorized from './Unauthorized';
 
-const UserAmdin = ({ allUsers, setUpdateUserlist, user }) => {
+const UserAmdin = ({ allUsers, setUpdateUserlist, user, JWT }) => {
   const handleDeleteUser = async (id) => {
-    deleteUserById(id);
+    deleteUserById(id, JWT);
 
     setUpdateUserlist((prev) => prev + 1);
   };
@@ -47,7 +48,7 @@ const UserAmdin = ({ allUsers, setUpdateUserlist, user }) => {
           </ul>
         </div>
       ) : (
-        <div>Access denied</div>
+        <Unauthorized />
       )}
     </>
   );

@@ -6174,3 +6174,947 @@ Time: 23:51:48
 Success: undefined
 Message: You need to be logged in
 
+
+ERROR LOG
+URL: /api/users/6895fc470ae006030522a157
+Date: 2025-08-08
+Time: 15:32:11
+Success: undefined
+Message: jwt expired
+
+
+ERROR LOG
+URL: /api/users/6895fc470ae006030522a157
+Date: 2025-08-08
+Time: 15:32:17
+Success: undefined
+Message: jwt expired
+
+
+ERROR LOG
+URL: /api/users/6895fc470ae006030522a157
+Date: 2025-08-08
+Time: 15:32:18
+Success: undefined
+Message: jwt expired
+
+
+ERROR LOG
+URL: /api/users/688bc5d5af4d8dc6a3f48b5a
+Date: 2025-08-08
+Time: 15:32:21
+Success: undefined
+Message: jwt expired
+
+
+ERROR LOG
+URL: /api/users/6895fc470ae006030522a157
+Date: 2025-08-08
+Time: 15:32:31
+Success: undefined
+Message: jwt expired
+
+
+ERROR LOG
+URL: /api/users/6895fc470ae006030522a157
+Date: 2025-08-08
+Time: 15:32:47
+Success: undefined
+Message: jwt expired
+
+
+ERROR LOG
+URL: /api/users/687d062cad3f1f61705e7dcb
+Date: 2025-08-08
+Time: 15:33:35
+Success: undefined
+Message: jwt expired
+
+
+ERROR LOG
+URL: /api/users/6895fc470ae006030522a157
+Date: 2025-08-08
+Time: 15:36:43
+Success: undefined
+Message: jwt malformed
+
+
+ERROR LOG
+URL: /api/users/688bbea2025bef24c4f4d7aa
+Date: 2025-08-08
+Time: 15:36:49
+Success: undefined
+Message: jwt malformed
+
+
+ERROR LOG
+URL: /api/users/688bbea2025bef24c4f4d7aa
+Date: 2025-08-08
+Time: 15:38:30
+Success: undefined
+Message: jwt malformed
+
+
+ERROR LOG
+URL: /api/users/add
+Date: 2025-08-08
+Time: 15:43:18
+Success: undefined
+Message: Username is already taken. Choose another one
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-08-08
+Time: 15:43:57
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-08-08
+Time: 15:44:45
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-08-08
+Time: 15:44:45
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-08-08
+Time: 15:45:10
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-08-08
+Time: 15:45:10
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-08
+Time: 15:45:37
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-08
+Time: 15:45:37
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-08
+Time: 15:45:44
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-08
+Time: 15:45:44
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-08
+Time: 15:45:53
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-08
+Time: 15:45:53
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-08
+Time: 15:55:35
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-08
+Time: 15:55:35
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-08
+Time: 15:55:48
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-08
+Time: 15:55:48
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 09:49:20
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 09:49:20
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-08-10
+Time: 09:49:46
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-08-10
+Time: 09:50:02
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-08-10
+Time: 09:50:02
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 10:10:30
+Success: undefined
+Message: transaction.update is not a function
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 10:10:46
+Success: undefined
+Message: transaction.update is not a function
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 10:11:01
+Success: undefined
+Message: transaction.update is not a function
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 10:45:49
+Success: undefined
+Message: Cannot read properties of null (reading 'role')
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 10:45:58
+Success: undefined
+Message: Cannot read properties of null (reading 'role')
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 14:27:55
+Success: undefined
+Message: transaction.update is not a function
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 14:27:57
+Success: undefined
+Message: transaction.update is not a function
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 14:28:15
+Success: undefined
+Message: transaction.update is not a function
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 14:32:15
+Success: undefined
+Message: transaction.update is not a function
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 14:33:41
+Success: undefined
+Message: transaction.update is not a function
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 14:36:39
+Success: undefined
+Message: transaction.update is not a function
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 16:25:26
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 16:25:26
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 16:25:28
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 16:25:28
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 22:45:14
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 22:45:14
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 22:45:17
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 22:45:17
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 22:45:20
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 22:45:20
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 22:45:32
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 22:45:32
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 22:45:36
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 22:46:27
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 22:46:27
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 22:47:24
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 22:47:24
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 22:48:36
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 22:48:36
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/auth
+Date: 2025-08-10
+Time: 22:48:49
+Success: undefined
+Message: Wrong email and/or password
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 22:54:56
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 22:54:56
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 22:55:01
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 22:55:01
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 22:55:02
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 22:55:02
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 22:57:43
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 22:57:43
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 22:59:10
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 22:59:10
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 22:59:43
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 22:59:43
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 23:01:04
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 23:01:04
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 23:05:17
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 23:05:17
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 23:05:18
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 23:05:18
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 23:05:21
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 23:05:21
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 23:05:22
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 23:05:22
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 23:05:24
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 23:05:24
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 23:08:24
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 23:08:24
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 23:08:50
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 23:08:50
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 23:09:33
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 23:09:33
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 23:12:10
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 23:12:10
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 23:12:11
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 23:12:11
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 23:12:36
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 23:12:36
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 23:12:38
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 23:12:38
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 23:13:23
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 23:13:23
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 23:43:24
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 23:43:24
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 23:44:21
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/info
+Date: 2025-08-10
+Time: 23:44:21
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 23:44:22
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 23:44:22
+Success: undefined
+Message: You need to be logged in
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-08-10
+Time: 23:45:01
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/users
+Date: 2025-08-10
+Time: 23:45:01
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 23:45:04
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 23:45:04
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 23:45:06
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 23:45:06
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 23:45:27
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 23:45:27
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 23:45:30
+Success: undefined
+Message: Peasants not allowed
+
+
+ERROR LOG
+URL: /api/wallet/transactions
+Date: 2025-08-10
+Time: 23:45:30
+Success: undefined
+Message: Peasants not allowed
+

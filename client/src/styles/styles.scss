@@ -26,10 +26,28 @@ ul {
 }
 
 section {
+  display: flex;
+  flex-direction: column;
   max-width: $max-width;
   margin: 0 auto;
   min-height: calc(100vh - $header-height);
   padding: 4rem 1rem;
+}
+
+table {
+  th {
+    padding: 0.25rem 1rem 0.25rem 0.5rem;
+    text-align: left;
+    background: rgba(0, 0, 0, 0.07);
+    border-color: $menu-color;
+  }
+  td {
+    border: 1px solid grey;
+    padding: 0.25rem 0.5rem;
+    margin: 0;
+    max-width: 80ch;
+    overflow-wrap: anywhere;
+  }
 }
 
 .capitalize {
@@ -56,6 +74,21 @@ header {
   justify-content: center;
   min-height: $header-height;
   width: 100%;
+
+  .logo-wrapper {
+    display: flex;
+
+    img {
+      width: 180px;
+      height: auto;
+    }
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+  }
 
   .menu-wrapper {
     position: relative;
@@ -108,7 +141,7 @@ header {
       position: absolute;
       display: block;
       width: 0px;
-      right: 25px;
+      right: 12px;
       top: 5px;
       border: 23px solid rgba(0, 0, 0, 0);
       border-top: 0;
@@ -140,21 +173,23 @@ header {
   }
 
   .logged-in {
-    background-color: #daa9c8;
+    background-color: #dba2f4;
     border-radius: 100px;
     font-size: 0.8rem;
-    height: 80px;
-    width: 80px;
-    color: black;
-    font-weight: 600;
-    outline: 3px solid #b16495;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 0;
+    color: #000;
+    font-weight: 700;
+    outline: 3px solid #5f2b98;
 
     &:hover {
-      border-color: rgb(253, 0, 220);
+      border-color: rgb(255, 255, 255);
     }
 
     &:focus {
-      outline: 3px solid #b16495;
+      outline: 3px solid #5f2b98;
     }
   }
 
@@ -228,8 +263,38 @@ form {
   }
 }
 
+.mine-section {
+  display: flex;
+  gap: 4rem;
+  width: 100%;
+
+  .mempool-column {
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    transform: scale(1.05);
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    height: fit-content;
+
+    button {
+      margin-top: auto;
+    }
+  }
+
+  .blocks-column {
+    padding: 2rem;
+    flex: 1;
+  }
+}
+
 .alert {
   border: 2px solid red !important;
+}
+
+.string-wrap {
+  overflow-wrap: anywhere;
 }
 
 .submit-wrapper {
@@ -305,21 +370,60 @@ form {
   }
 }
 
+.home-feed {
+  margin: 0 auto;
+  max-width: 640px;
+  padding: 0 2rem 2rem 2rem;
+  background: #ffffff;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.15) 10%,
+    rgba(255, 255, 255, 0.5) 30%,
+    rgba(255, 255, 255, 0.5) 70%,
+    rgba(255, 255, 255, 0.15) 90%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
 .transactions-pending {
-  background-color: white;
   border-radius: 10px;
   margin: 0 auto;
   padding: 2rem;
+  height: fit-content;
 
   .transaction-list {
     border-top: 2px dashed grey;
     padding: 1rem;
     margin-bottom: 1rem;
-    background: #f4f4f4;
+    background: rgba(0, 0, 0, 0.08);
+
+    li {
+      border-bottom: 1px solid grey;
+    }
+  }
+}
+
+.submit-success {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  h3 {
+    margin: auto;
+  }
+}
+
+.submit-transaction-container {
+  border-top: 2px dashed #000;
+  margin-top: 2rem;
+
+  h5 {
+    margin-top: 3px;
+    width: fit-content;
   }
 
-  li {
-    border-bottom: 1px solid grey;
+  button {
+    margin-top: 2rem;
   }
 }
 
@@ -331,7 +435,7 @@ form {
 }
 
 .wallet {
-  flex: 1;
+  flex: 1.1 !important;
   background: white;
   padding: 2rem;
   border-radius: 10px;
@@ -347,4 +451,59 @@ form {
   div {
     flex: 1;
   }
+}
+
+.blockchain {
+  margin-top: 2rem;
+}
+
+.block {
+  $border-width: 1px;
+  position: relative;
+  border: $border-width solid #000;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  &::before {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 2rem;
+    border: calc($border-width / 2) solid black;
+    top: calc(-2rem - $border-width);
+    left: 50%;
+  }
+
+  &:first-child::before {
+    content: none;
+  }
+
+  .block-header {
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.07);
+  }
+
+  .trx-details {
+    margin: 2rem;
+    border-left: 3px solid black;
+    padding-inline: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.unauthorized {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-weight: 600;
+  align-items: center;
+  margin: auto;
+  max-width: 600px;
+  background: white;
+  padding: 2rem;
+  border: 3px dashed #5f2b97;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
