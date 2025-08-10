@@ -10,7 +10,7 @@ import { connectDb } from './db/database.mjs';
 dotenv.config({ path: './config/config.env' });
 
 const limiter = rateLimit({
-  max: 100,
+  max: 1000,
   windowMs: 60 * 60 * 1000,
   message: 'You are killing me, get lost!!!',
 });
